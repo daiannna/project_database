@@ -1,2 +1,4 @@
 # project_database
-Batyrkhan Daiana, Amantay Merey 18-P
+18 - P
+Batyrkhan Daiana 210103101
+Amantay Merey 210103126
