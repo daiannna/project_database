@@ -15,8 +15,9 @@ A hospital is such an organization that works with a very large amount of inform
 
 
 # Who will use it?
-End users of our database are doctors, nurses, staff and even patients.
-
+ • Doctors <br>
+ • Nurses <br>
+ • Patients <br>
 
 # How will data obsolescence be handled?
 Every ten years, the hospital database is sent for storage to the System Archive, thereby outdated information frees up additional space for further processing.
@@ -27,52 +28,87 @@ Sympathetic to the situation of hospitals in our country, we decided to consider
 
 
 # ER diagram
-<img width="1299" alt="hospital" src="https://user-images.githubusercontent.com/120556897/207567973-c1fd587b-bc28-4c3e-abcd-48773fdbfb84.png">
+<img width="1320" alt="Снимок экрана 2022-12-15 в 11 23 49" src="https://user-images.githubusercontent.com/120556897/207779740-a540f7fa-3d3d-4c64-99a2-b5f984a43d0f.png">
+
+# Relational Schema
+
+•	Department (ID, Dname, Head) <br>
+•	Doctor (ID, Name, Position, Salary) <br>
+•	Nurse (ID, Name, Position, Salary) <br>
+•	Patient (P_ID, Name, Age, Phone, Address) <br>
+•	MedicalRecords (P_ID, D_ID, Service, Settled, MoveOut) <br> 
+•	Room (R_code, Number, Floor) <br>
+•	Block (B_code, N_ID, Floor) <br>
+•	Stay (P_ID, Rnumber, Available) <br>
+•	Cost (P_ID, D_ID, roomPrice, oPrice) <br>
+•	Operation (P_ID, D_ID, N_ID, Oname, Otype, Oroom) <br>
+•	Diagnose (P_ID, D_code, DiagnoseName) <br>
+•	Ambulans (P_ID, carNumber, Model) <br>
+•	Driver (Driver_ID, Name, Phone, Salary) <br>
+•	Paramedic (Paramedic_ID, Name, Phone, Salary, Shift) <br>
+•	Treatment (P_ID, D_ID, D_code, Mname, Oname) <br>
+•	Medicine (Mname, Brand, Description) <br>
+
+
 
 
 # Normalization
-1) Department (D_ID -> DName, head);
-Key,superkey:D_ID
 
-2) Doctor (ID -> Name,Position,Salary);
-Key,superkey:D_ID
+# FDs
 
-3) Nurse (ID -> Name,Position,Salary)
-Key,superkey:N_ID
+1. Department <br>
+  ID -> {DName, Head}
 
-4) Patient (ID -> Name,Address,Phone,Age)
-Key,superkey:P_ID
+2. Doctor <br>
+  ID -> {Name, Position, Salary}
 
-5) Diagnose (D_Code -> D_Name , P_ID -> D_Name)
-superkey:D_Code, foreign key:P_ID
+3. Nurse <br>
+  ID -> {Name, Position, Salary}
 
-6) Block (B_Code -> Floor , N_ID)
-Key,superkey:B_Code
+4. Patient <br>
+  ID -> {Name, Address, Phone, Age}
 
-7) Room (B_Code -> floor,number)
-foreign key:B_Code
+5. Diagnose <br>
+  D_Code -> {D_Name}  <br>
+  P_ID -> {D_Code, D_Name}
 
-8) Ambulans (Car_Number ->Model)
-Key,superkey:Car_Number. foreign key:P_ID
+6. Block <br>
+  B_Code -> {Floor, N_ID}
 
-9) Driver (ID -> Name,Phone,Salary)
-Key,superkey:D_ID
+7. Room <br>
+  R_Code -> {Floor, rNumber}
 
-10) Paramedic (ID -> Name,Position,Salary,Shift)
-Key,superkey:P_ID
+8. Ambulans <br>
+  Car_Number -> {Model} 
 
-11) Treatments:foreign key()
+9. Driver <br>
+  ID -> {Name, Phone, Salary, Shift}  <br>
+  Phone -> {Name}
 
-12) Operation:foreign key()
+10. Paramedic  
+   Paramedic_ID -> {Name, Position, Salary, Shift}
 
-13) Stay:foreign key()
+11. Treatment  
+   P_ID -> {D_ID, D_code, Mname, Oname}
 
-14) Cost:foreign key()
+12. Operation <br>
+   P_ID -> {D_ID, N_ID, Oroom, Otype, Oname}  <br>
+   Oname -> {Otype, Oroom}
 
-15) Medicine:there are not keys
+13. Stay <br>
+   P_ID -> {Rnumber, Available}  <br>
+   Rnumber -> {Available}
 
-16) Medical records:foreign key(P_ID)
+14. Cost <br>
+   P_ID -> {D_ID, oPrice, roomPrice}
 
+15. Medicine <br>
+   Mname -> {Description}
+
+16. Medical Records   
+   P_ID -> {D_ID, Service, Settled}  <br>
+   P_ID, Settled -> MoveOut
+    
 
 
 
