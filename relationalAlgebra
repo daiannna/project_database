@@ -6,7 +6,7 @@
 
 4. γ count(rNumber) σ available = 'Yes'(stay)
 
-5. π medicine.brand (medicine) σ Mname = All(π Mname (treatment) σ p_id > 43)
+5. π medicine.Mname, medicine.brand, medicine.Description (medicine) σ Mname = All(π Mname (treatment) σ p_id = 43)
 
 6. π patient.p_id, patient.pname (patient) ⟕ patient.p_id = diagnose.p_id π diagnose.dname(diagnose)
 
