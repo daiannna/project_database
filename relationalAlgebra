@@ -22,4 +22,4 @@
      
 11. π operation.dc_id, operation.n_id σ operation.otype = "Mild" ^ oroom = "D341" (operation ⋈ doctors.dc_id = operation.dc_id doctors ⋈ nurse.n_id = operation.n_id nurse)
 
-12. ρ diagn (diagnose)
+12. ρ diagn (diagnose) 
