@@ -23,7 +23,8 @@ SELECT count(rNumber) FROM stay WHERE available LIKE 'Yes';
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-SELECT medicine.brand FROM medicine WHERE Mname = All (SELECT Mname FROM treatment WHERE p_id > 43); 
+SELECT medicine.Mname, medicine.brand, medicine.Description FROM medicine WHERE Mname = All 
+   (SELECT Mname FROM treatment WHERE p_id = 43); 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -36,8 +37,7 @@ WHERE SALARY IN (SELECT SALARY FROM DOCTORS WHERE SALARY < 150 );
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-SELECT patient.p_id, patient.pname FROM patient 
-WHERE age > 45 
+SELECT patient.p_id, patient.pname FROM patient WHERE age > 45 
 UNION 
 SELECT medicalrecords.settle, medicalrecords.moveout from medicalrecords; 
 
