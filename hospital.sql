@@ -119,106 +119,106 @@ CREATE TABLE NURSE(
 );
 
 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (1000, 'Kennan Wickie', 'Operating room nurse', 369.33); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (2000, 'Merna Sirkett', 'Radiology nurse', 661.64); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (502, 'Lothario Costin', 'Urology nurse', 573.31); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (108, 'Hana Elders', 'Sexual Health nurse', 253.18); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (356, 'Sibel FitzGeorge', 'Cardiology nurse', 388.51); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (352, 'Tabbatha Benedit', 'Pediatric nurse', 224.20); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (248, 'Barn Bonnick', 'Paramedical nurse', 780.99); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (109, 'Peria Mertel', 'ENT nurse', 259.38); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (144, 'Deck Defries', 'Trauma center nurse', 166.39); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (317, 'Edvard Gilstin', 'Radiology nurse', 429.21); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (351, 'Rennie Erridge', 'Sexual Health nurse', 147.37); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (233, 'Willi Merrill', 'Haematology nurse', 163.60); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (118, 'Kerr Chatt', 'Paramedical nurse', 174.71); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (202, 'Cesya Ziebart', 'Nutrition  dietetics nurse', 668.99); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (362, 'Rene Oddey', 'Pediatric nurse', 667.08); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (134, 'Reinold Redmayne', 'Infection nurse', 585.23); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (357, 'Eddy Kahler', 'Pediatric nurse', 346.79); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (288, 'Phil Stoffler', 'Nutrition  dietetics nurse', 196.61); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (361, 'Wendie Celle', 'CCU nurse', 199.99); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (400, 'Gustavus Firle', 'Radiology nurse', 334.43); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (171, 'Venus Pawel', 'Psychiatry nurse', 650.67); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (271, 'Merle Dugget', 'Infection nurse', 314.06); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (258, 'Daron Keigher', 'Opthalmology nurse', 467.54); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (268, 'Tildy Sextie', 'Operating room nurse', 721.91); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (307, 'Sandye Buxy', 'Trauma center nurse', 363.72); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (323, 'Sherilyn Songist', 'CCU nurse', 402.78); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (155, 'Theo Golden', 'Pain Management nurse', 345.69); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (134, 'Elsy McGrayle', 'Urology nurse', 755.59); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (162, 'Dasha Toffler', 'Nutrition  dietetics nurse', 135.60); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (401, 'Susanetta Treuge', 'Orthopaedic nurse', 392.87); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (279, 'Dode Soaper', 'Rheumatology nurse', 479.50); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (129, 'Hercule Levay', 'Emergency nurse', 666.51); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (239, 'Sandie Cordey', 'Oncology nurse', 277.59); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (357, 'Packston Climo', 'Pain Management nurse', 168.60); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (364, 'Levey Biggen', 'Paramedical nurse', 192.13); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (190, 'Walton Gallienne', 'Psychiatry nurse', 126.76); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (159, 'Erin Freegard', 'Oncology nurse', 592.01); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (329, 'Rayner Twinbourne', 'Infection nurse', 245.23); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (289, 'Fawn Gerdts', 'Gynaecology nurse', 780.97); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (165, 'Dewie Perris', 'Opthalmology nurse', 347.02); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (133, 'Cynthea Pickles', 'Transplantation nurse', 466.71); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (231, 'Nannie Devenish', 'Gynaecology nurse', 288.94); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (234, 'Aland Burdus', 'Orthopaedic nurse', 781.45); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (311, 'Verena Reichelt', 'Gastroenterology nurse', 173.59); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (303, 'Kathye Greeno', 'Mental Health nurse', 135.67); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (233, 'Janessa Hofler', 'Trauma center nurse', 571.59); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (374, 'Brocky Withringten', 'Laboratory nurse', 565.63); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (102, 'Rasia Beeres', 'Gastroenterology nurse', 770.75); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (152, 'Mill Rosbrough', 'Orthopaedic nurse', 752.48); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (259, 'Tommy MacPaike', 'Pediatric nurse', 318.53); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (174, 'Caldwell Tuberfield', 'Haematology nurse', 496.01); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (156, 'Jayson Bramble', 'CCU nurse', 458.64); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (164, 'Etty Battison', 'Surgical nurse', 646.85); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (190, 'Leela Davidow', 'Gynaecology nurse', 710.77); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (172, 'Archaimbaud Bromfield', 'CCU nurse', 341.01); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (267, 'Renaud Klasen', 'Gastroenterology nurse', 471.10); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (145, 'Lanny Narup', 'Orthopaedic nurse', 514.06); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (206, 'Myrlene Litherborough', 'Infection nurse', 158.15); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (270, 'Georgi Boddy', 'Neurology nurse', 171.93); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (377, 'Inna Filov', 'Obstetric nurse', 222.93); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (245, 'Gus Horburgh', 'Emergency nurse', 615.11); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (141, 'Calli Colmore', 'Dermatology nurse', 404.01); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (364, 'Ado Straine', 'Obstetric nurse', 261.42); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (371, 'Hewie Edgson', 'Geriatrics nurse', 349.63); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (273, 'Roxana Dufoure', 'Transplantation nurse', 449.54 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (147, 'Jacki Pabst', 'Pediatric nurse', 282.28); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (203, 'Joyous Palffrey', 'Pediatric nurse', 543.61); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (107, 'Calli Hanscombe', 'Psychiatry nurse', 651.17); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (263, 'Niels Kraut', 'Laboratory nurse', 131.43); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (161, 'Say Scawn', 'Hospitalization nurse', 712.46); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (261, 'Goldia Brister', 'Rheumatology nurse', 186.73); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (131, 'Lenette Coope', 'Infection nurse', 343.98); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (255, 'Lannie Edmeads', 'Mental Health nurse', 599.38); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (323, 'Rollie Brownill', 'Gynaecology nurse', 470.87); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (188, 'Margret Van der Beken', 'Haematology nurse', 464.23); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (114, 'Elie Hurl', 'Orthopaedic nurse', 505.67); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (174, 'Wendie Gare', 'Laboratory nurse', 157.15); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (331, 'Halsey Shallcroff', 'Pediatric nurse', 618.48); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (358, 'Hodge Garfield', 'Surgical nurse ', 315.94); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (189, 'Merola Fraczak', 'Laboratory nurse', 714.15); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (151, 'Penny Avey', 'Oncology nurse', 736.67); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (150, 'Brenn Horbath', 'Haematology nurse', 258.89); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (207, 'Farand Fulun', 'Rheumatology nurse', 117.33); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (284, 'Coriss Hendrich', 'Gastroenterology nurse', 650.68); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (382, 'Nadia Benedetti', 'Hospitalization nurse', 614.88); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (344, 'Elnora Tzuker', 'Operating room nurse', 127.75); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (137, 'Lorrin Chidzoy', 'Mental Health nurse', 707.13); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (390, 'Pat Yorath', 'Emergency nurse', 189.35); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (178, 'Linnet Birchill', 'Laboratory nurse', 567.30); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (110, 'Bryana Barkhouse', 'Dermatology nurse', 214.28); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (337, 'Tobe Olsen', 'Geriatrics nurse', 100.43); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (381, 'Claus Fleis', 'Surgical nurse', 656.86); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (181, 'Anna-diana Fantham', 'Hospitalization nurse', 353.17); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (216, 'Fabio Shallcross', 'Neurology nurse', 303.03); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (141, 'Eddy Stoggles', 'Psychiatry nurse', 600.63); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (315, 'Lorene Sager', 'Obstetric nurse', 179.55); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (221, 'Fabien Hastelow', 'Dermatology nurse', 690.92); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (347, 'Shaine Lecount', 'Oncology nurse', 105.65); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (285, 'Anson Southerton', 'Geriatrics nurse', 341.62); 
-INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (206, 'Christoph O''Heagertie', 'Neurology nurse',455.23); 
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (101, 'Kennan Wickie', 'Operating room nurse', 369);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (102, 'Merna Sirkett', 'Radiology nurse', 662);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (103, 'Lothario Costin', 'Urology nurse', 573);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (104, 'Hana Elders', 'Sexual Health nurse', 253);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (105, 'Sibel FitzGeorge', 'Cardiology nurse', 389);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (106, 'Tabbatha Benedit', 'Pediatric nurse', 224);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (107, 'Barn Bonnick', 'Paramedical nurse', 781);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (108, 'Peria Mertel', 'ENT nurse', 259);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (109, 'Deck Defries', 'Trauma center nurse', 166);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (110, 'Edvard Gilstin', 'Radiology nurse', 429);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (111, 'Rennie Erridge', 'Sexual Health nurse', 147);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (112, 'Willi Merrill', 'Haematology nurse', 164);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (113, 'Kerr Chatt', 'Paramedical nurse', 175);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (114, 'Cesya Ziebart', 'Nutrition  dietetics nurse', 669);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (115, 'Rene Oddey', 'Pediatric nurse', 667);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (116, 'Reinold Redmayne', 'Infection nurse', 585);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (117, 'Eddy Kahler', 'Pediatric nurse', 347);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (118, 'Phil Stoffler', 'Nutrition  dietetics nurse', 197);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (119, 'Wendie Celle', 'CCU nurse', 200);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (120, 'Gustavus Firle', 'Radiology nurse', 334);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (121, 'Venus Pawel', 'Psychiatry nurse', 651);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (122, 'Merle Dugget', 'Infection nurse', 314);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (123, 'Daron Keigher', 'Opthalmology nurse', 468);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (124, 'Tildy Sextie', 'Operating room nurse', 722);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (125, 'Sandye Buxy', 'Trauma center nurse', 364);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (126, 'Sherilyn Songist', 'CCU nurse', 403);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (127, 'Theo Golden', 'Pain Management nurse', 346);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (128, 'Elsy McGrayle', 'Urology nurse', 756);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (129, 'Dasha Toffler', 'Nutrition  dietetics nurse', 136);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (130, 'Susanetta Treuge', 'Orthopaedic nurse', 393);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (131, 'Dode Soaper', 'Rheumatology nurse', 480);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (132, 'Hercule Levay', 'Emergency nurse', 667);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (133, 'Sandie Cordey', 'Oncology nurse', 278);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (134, 'Packston Climo', 'Pain Management nurse', 169);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (135, 'Levey Biggen', 'Paramedical nurse', 192);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (136, 'Walton Gallienne', 'Psychiatry nurse', 127);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (137, 'Erin Freegard', 'Oncology nurse', 592);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (138, 'Rayner Twinbourne', 'Infection nurse', 245);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (139, 'Fawn Gerdts', 'Gynaecology nurse', 781);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (140, 'Dewie Perris', 'Opthalmology nurse', 347);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (141, 'Cynthea Pickles', 'Transplantation nurse', 467);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (142, 'Verena Reichelt', 'Gastroenterology nurse', 174);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (143, 'Kathye Greeno', 'Mental Health nurse', 136);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (144, 'Janessa Hofler', 'Trauma center nurse', 572);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (145, 'Brocky Withringten', 'Laboratory nurse', 566);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (146, 'Rasia Beeres', 'Gastroenterology nurse', 771);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (147, 'Mill Rosbrough', 'Orthopaedic nurse', 752);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (148, 'Tommy MacPaike', 'Pediatric nurse', 319);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (149, 'Caldwell Tuberfield', 'Haematology nurse', 496);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (150, 'Jayson Bramble', 'CCU nurse', 459);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (151, 'Etty Battison', 'Surgical nurse', 647);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (152, 'Leela Davidow', 'Gynaecology nurse', 711);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (153, 'Archaimbaud Bromfield', 'CCU nurse', 341);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (154, 'Renaud Klasen', 'Gastroenterology nurse', 471);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (155, 'Lanny Narup', 'Orthopaedic nurse', 514);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (156, 'Myrlene Litherborough', 'Infection nurse', 158);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (157, 'Georgi Boddy', 'Neurology nurse', 172);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (158, 'Inna Filov', 'Obstetric nurse', 223);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (159, 'Gus Horburgh', 'Emergency nurse', 615);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (160, 'Calli Colmore', 'Dermatology nurse', 404);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (161, 'Ado Straine', 'Obstetric nurse', 261);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (162, 'Hewie Edgson', 'Geriatrics nurse', 350);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (165, 'Joyous Palffrey', 'Pediatric nurse', 544);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (166, 'Calli Hanscombe', 'Psychiatry nurse', 651);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (167, 'Niels Kraut', 'Laboratory nurse', 131);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (168, 'Say Scawn', 'Hospitalization nurse', 712);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (169, 'Goldia Brister', 'Rheumatology nurse', 187);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (170, 'Lenette Coope', 'Infection nurse', 344);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (171, 'Lannie Edmeads', 'Mental Health nurse', 599);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (172, 'Rollie Brownill', 'Gynaecology nurse', 471);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (173, 'Margret Van der Beken', 'Haematology nurse', 464);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (174, 'Elie Hurl', 'Orthopaedic nurse', 506);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (175, 'Wendie Gare', 'Laboratory nurse', 157);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (176, 'Halsey Shallcroff', 'Pediatric nurse', 618);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (177, 'Hodge Garfield', 'Surgical nurse ', 316);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (178, 'Merola Fraczak', 'Laboratory nurse', 714);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (179, 'Penny Avey', 'Oncology nurse', 737);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (180, 'Brenn Horbath', 'Haematology nurse', 259);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (181, 'Farand Fulun', 'Rheumatology nurse', 117);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (182, 'Coriss Hendrich', 'Gastroenterology nurse', 651);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (183, 'Nadia Benedetti', 'Hospitalization nurse', 615);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (184, 'Elnora Tzuker', 'Operating room nurse', 128);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (185, 'Lorrin Chidzoy', 'Mental Health nurse', 707);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (186, 'Pat Yorath', 'Emergency nurse', 189);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (187, 'Linnet Birchill', 'Laboratory nurse', 567);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (188, 'Bryana Barkhouse', 'Dermatology nurse', 214);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (189, 'Tobe Olsen', 'Geriatrics nurse', 100);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (190, 'Claus Fleis', 'Surgical nurse', 657);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (191, 'Anna-diana Fantham', 'Hospitalization nurse', 353);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (192, 'Fabio Shallcross', 'Neurology nurse', 303);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (193, 'Eddy Stoggles', 'Psychiatry nurse', 601);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (194, 'Lorene Sager', 'Obstetric nurse', 180);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (195, 'Fabien Hastelow', 'Dermatology nurse', 691);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (196, 'Shaine Lecount', 'Oncology nurse', 106);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (197, 'Anson Southerton', 'Geriatrics nurse', 342);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (198, 'Christoph O\Heagertie', 'Neurology nurse', 455);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (199, 'Nannie Devenish', 'Gynaecology nurse', 289);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (200, 'Aland Burdus', 'Orthopaedic nurse', 781);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (201, 'Kennan Wickie', 'Operating room nurse', 369);
+INSERT INTO Nurse (N_ID, Name, Position, Salary) VALUES (202, 'Calli Hanscombe', 'Psychiatry nurse', 651);
 
 
 _____________________________________________________________________________________________________________________________________________________________________________________
@@ -232,106 +232,107 @@ Create table Doctor (
     PRIMARY KEY(D_ID)
 );
 
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (203, 'Chaunce Meaders', 'head of Casualty department', 369.33);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (301, 'Bethanne Wyche', 'head of Operating theatre (OT)', 661.64);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (300, 'Carmen Donnelly', 'head of Intensive care unit (ICU)', 573.31);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (204, 'Skipp Mattschas', 'Sexual Health', 253.18);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (205, 'Melba Knightsbridge', 'Cardiology', 388.51);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (206, 'Pen Reynault', 'Pediatric', 224.20);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (207, 'Joshuah McConachie', 'Paramedical', 780.99);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (208, 'Therese Goodboddy', 'head of Anesthesiology department', 259.38);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (209, 'Alon Preshous', 'Trauma center', 166.39);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (210, 'Donna Pitone', 'Radiology', 429.21);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (211, 'Lanni Dulson', 'Sexual Health', 147.37);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (212, 'Hermie Gatcliff', 'Haematology', 163.60);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (213, 'Rosy Castells', 'Paramedical', 174.71);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary)VALUES (214, 'Gibb Robardey', 'head of Cardiology department', 668.99);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (215, 'Jo-anne Berridge', 'Pediatric', 667.08);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (216, 'Francine Britzius', 'Infection', 585.23);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (217, 'Timoteo Habbeshaw', 'Pediatric', 346.79);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (218, 'Tallie Matasov', 'Nutrition  dietetics', 196.61);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (219, 'Brittan Cumes', 'CCU', 199.99);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (220, 'Sig Silcock', 'Radiology', 334.43);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (221, 'Myrvyn Cage', 'head of ENT department', 650.67);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (222, 'Tiffy Surtees', 'Infection', 314.06);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (223, 'Natty MenichiYes', 'Opthalmology', 467.54);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (224, 'Stacie Sedcole', 'Operating room', 721.91);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (225, 'Kelly Ginnelly', 'Geriatric department', 363.72);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (226, 'Genvieve Ferroni', 'CCU', 402.78);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (227, 'Siffre Craisford', 'Pain Management', 345.69);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (228, 'Eb Mewton', 'Urology', 755.59);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (229, 'Loren MacCombe', 'head of Loren MacCombe', 135.60);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (230, 'Oran Cadding', 'Orthopaedic', 392.87);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (231, 'Harwell Mayling', 'Rheumatology', 479.50);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (232, 'Sibylla Holliar', 'Emergency', 666.51);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (233, 'Susy Whicher', 'Oncology', 277.59);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (234, 'Harmony Cammiemile', 'Pediatrics department', 168.60);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (235, 'Patrice Krysiak', 'Paramedical', 192.13);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (236, 'Walton Gallienne', 'Psychiatry', 126.76);
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (237, 'Edgar Venneur', 'Oncology', 592.01);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (238, 'Rayner Twinbourne', 'Infection', 245.23);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (239, 'Nick Natwick', 'head of Neurology departmen', 780.97);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (240, 'Minnnie Fussen', 'head of Oncology department', 347.02);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (241, 'Cynthea Pickles', 'Transplantation', 466.71);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (299, 'Vince Case', 'Gynaecology', 288.94);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (200, 'Joanie Glandon', 'Orthopaedic', 781.45);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (242, 'Verena Reichelt', 'Gastroenterology', 173.59);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (243, 'Deborah Hendrickx', 'head of Opthalmology department', 135.67);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (244, 'Miguelita Lehenmann', 'Trauma center', 571.59);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (245, 'Brocky Withringten', 'Laboratory', 565.63);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (246, 'Vivi Euesden', 'Gastroenterology', 770.75);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (247, 'Mill Rosbrough', 'Orthopaedic', 752.48);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (248, 'Tommy MacPaike', 'Pediatric', 318.53);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (249, 'Caldwell Tuberfield', 'Haematology', 496.01);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (250, 'Ofelia Chrystal', 'head of Orthopaedic department', 458.64);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (251, 'Aline Mosson', 'Surgical', 646.85);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (252, 'Leela Davidow', 'Gynaecology', 710.77);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (253, 'Malia Bernardot', 'CCU', 341.01);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (254, 'Renaud Klasen', 'Gastroenterology', 471.10);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (255, 'Lanny Narup', 'Orthopaedic', 514.06);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (256, 'Clementius Mallya', 'Infection', 158.15);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (257, 'Georgi Boddy', 'Neurology', 171.93);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (258, 'Orville Garman', 'Obstetric', 222.93);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (259, 'Allin Feitosa', 'head of Urology department', 615.11);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (260, 'Alfy Epinay', 'Dermatology', 404.01);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (261, 'Sauveur Lowmass', 'Obstetric', 261.42);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (262, 'Charis Clashe', 'head of Nephrology', 349.63);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (263, 'Katey Plastow', 'Transplantation', 449.54  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (264, 'Felice Killingbeck', 'Pediatric', 282.28);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (265, 'Meredeth Huke', 'Pediatric', 543.61);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (266, 'Haleigh Castelletto', 'head of Psychiatry department', 651.17);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (267, 'Delia Kenton', 'head of Clinical department', 131.43);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (268, 'Roselle Losty', 'Hospitalization', 712.46);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (269, 'Denise McGorley', 'Rheumatology', 186.73);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (270, 'AChip Chree', 'Infection', 343.98);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (271, 'Torrin Davidde', 'Mental Health', 599.38);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (272, 'Scarlet Brosoli', 'head of Burn Center (Burn Unit or Burns Unit)', 470.87);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (273, 'GiustiYes Yeldham', 'Haematology', 464.23);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (274, 'Linda Harring', 'Orthopaedic', 505.67);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (275, 'Clem Richie', 'Laboratory', 157.15);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (276, 'Alis Elland', 'Pediatric', 618.48);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (277, 'Psychiatry department', 'head of Psychiatry department', 315.94);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (278, 'Dorette Filan', 'Laboratory', 714.15);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (279, 'Sibylla Scandrite', 'Oncology', 736.67);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (280, 'Prudy Odda', 'Haematology', 258.89);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (281, 'Reagen Bonwick', 'Rheumatology', 117.33);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (282, 'Ellynn Fabry', 'head of Outpatient Department (OPD)', 650.68);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (283, 'Teddi Perrigo', 'head of Orthopaedics', 614.88);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (284, 'Brit Luckin', 'Operating room', 127.75);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (285, 'Ezri Morden', 'Mental Health', 707.13);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (286, 'Mohammed Harnes', 'Emergency', 189.35);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (287, 'Michaelina Avery', 'Laboratory', 567.30);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (288, 'Annmaria McCallister', 'Nursing Department', 214.28);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (289, 'Tab Galier', 'Geriatrics', 100.43);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (290,'Arlin Helm', 'Surgical', 656.86);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (291, 'Cati Iannini', 'Hospitalization', 353.17);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (292, 'Jilli Mompesson', 'Neurology', 303.03);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (293, 'Tabor Hazlegrove', 'head of Radiology Department', 600.63);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (294, 'Dieter Tottle', 'Obstetric', 179.55);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (295, 'Desmund Bulford', 'Dermatology', 690.92);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (296, 'Catharine Rozenzweig', 'Oncology', 105.65);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (297, 'Mara Telford', 'Geriatrics', 341.62);  
-INSERT INTO Doctor (D_ID, Name, Position, Salary) VALUES (298, 'Crin Spleving', 'head of Nutrition  dietetics',455.23); 219.64);
+
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (200, 'Joanie Glandon', 'Orthopaedic', 781),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (203, 'Chaunce Meaders', 'head of Casualty department', 369),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (204, 'Skipp Mattschas', 'Sexual Health', 253),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (205, 'Melba Knightsbridge', 'Cardiology', 389),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (206, 'Pen Reynault', 'Pediatric', 224),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (207, 'Joshuah McConachie', 'Paramedical', 781),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (208, 'ThereseGoodboddy', 'head of Anesthesiology department', 259),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (209, 'Alon Preshous', 'Trauma center', 166),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (210, 'Donna Pitone', 'Radiology', 429),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (211, 'Lanni Dulson', 'Sexual Health', 147),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (212, 'Hermie Gatcliff', 'Haematology', 164),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (213, 'Rosy Castells', 'Paramedical', 175),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (214, 'Gibb Robardey', 'head of Cardiology department', 669),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (215, 'Jo-anne Berridge', 'Pediatric', 667),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (216, 'Francine Britzius', 'Infection', 585),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (217, 'Timoteo Habbeshaw', 'Pediatric', 347),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (218, 'Tallie Matasov', 'Nutrition  dietetics', 197),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (219, 'Brittan Cumes', 'CCU', 200),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (220, 'Sig Silcock', 'Radiology', 334),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (221, 'Myrvyn Cage', 'head of ENT department', 651),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (222, 'Tiffy Surtees', 'Infection', 314),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (223, 'Natty Menichino', 'Opthalmology', 468),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (224, 'Stacie Sedcole', 'Operating room', 722),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (225, 'Kelly Ginnelly', 'Geriatric department', 364),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (226, 'Genvieve Ferroni', 'CCU', 403),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (227, 'Siffre Craisford', 'Pain Management', 346),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (228, 'Eb Mewton', 'Urology', 756),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (229, 'Loren MacCombe', 'head of Loren MacCombe', 136),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (230, 'Oran Cadding', 'Orthopaedic', 393),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (231, 'Harwell Mayling', 'Rheumatology', 480),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (232, 'Sibylla Holliar', 'Emergency', 667),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (233, 'Susy Whicher', 'Oncology', 278),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (234, 'Harmony Cammiemile', 'Pediatrics department', 169),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (235, 'Patrice Krysiak', 'Paramedical', 192),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (236, 'Walton Gallienne', 'Psychiatry', 127),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (237, 'Edgar Venneur', 'Oncology', 592),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (238, 'Rayner Twinbourne', 'Infection', 245),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (239, 'Nick Natwick', 'head of Neurology departmen', 781),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (240, 'Minnnie Fussen', 'head of Oncology department', 347),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (241, 'Cynthea Pickles', 'Transplantation', 467),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (242, 'Verena Reichelt', 'Gastroenterology', 174),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (243, 'Deborah Hendrickx', 'head of Opthalmology department', 136),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (244, 'Miguelita Lehenmann', 'Trauma center', 572),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (245, 'Brocky Withringten', 'Laboratory', 566),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (246, 'Vivi Euesden', 'Gastroenterology', 771),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (247, 'Mill Rosbrough', 'Orthopaedic', 752),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (248, 'Tommy MacPaike', 'Pediatric', 319),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (249, 'Caldwell Tuberfield', 'Haematology', 496),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (250, 'Ofelia Chrystal', 'head of Orthopaedic department', 459),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (251, 'Aline Mosson', 'Surgical', 647),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (252, 'Leela Davidow', 'Gynaecology', 711),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (253, 'Malia Bernardot', 'CCU', 341),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (254, 'Renaud Klasen', 'Gastroenterology', 471),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (255, 'Lanny Narup', 'Orthopaedic', 514),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (256, 'Clementius Mallya', 'Infection', 158),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (257, 'Georgi Boddy', 'Neurology', 172),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (258, 'Orville Garman', 'Obstetric', 223),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (259, 'Allin Feitosa', 'head of Urology department', 615),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (260, 'Alfy Epinay', 'Dermatology', 404),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (261, 'Sauveur Lowmass', 'Obstetric', 261),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (262, 'Charis Clashe', 'head of Nephrology', 350),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (263, 'Katey Plastow', 'Transplantation', 450),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (264, 'Felice Killingbeck', 'Pediatric', 282),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (265, 'Meredeth Huke', 'Pediatric', 544),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (266, 'Haleigh Castelletto', 'head of Psychiatry department', 651),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (267, 'Delia Kenton', 'head of Clinical department', 131),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (268, 'Roselle Losty', 'Hospitalization', 712),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (269, 'Denise McGorley', 'Rheumatology', 187),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (270, 'AChip Chree', 'Infection', 344),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (271, 'Torrin Davidde', 'Mental Health', 599),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (272, 'Scarlet Brosoli', 'head of Burn Center (Burn Unit or Burns Unit)', 471),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (273, 'Giustino Yeldham', 'Haematology', 464),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (274, 'Linda Harring', 'Orthopaedic', 506),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (275, 'Clem Richie', 'Laboratory', 157),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (276, 'Alis Elland', 'Pediatric', 618),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (277, 'Psychiatry department', 'head of Psychiatry department', 316),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (278, 'Dorette Filan', 'Laboratory', 714),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (279, 'Sibylla Scandrite', 'Oncology', 737),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (280, 'Prudy Odda', 'Haematology', 259),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (281, 'Reagen Bonwick', 'Rheumatology', 117),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (282, 'Ellynn Fabry', 'head of Outpatient Department (OPD)', 651),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (283, 'Teddi Perrigo', 'head of Orthopaedics', 615),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (284, 'Brit Luckin', 'Operating room', 128),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (285, 'Ezri Morden', 'Mental Health', 707),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (286, 'Mohammed Harnes', 'Emergency', 189),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (287, 'Michaelina Avery', 'Laboratory', 567),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (288, 'Annmaria McCallister', 'Nursing Department', 214),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (289, 'Tab Galier', 'Geriatrics', 100),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (290, 'Arlin Helm', 'Surgical', 657),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (291, 'Cati Iannini', 'Hospitalization', 353),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (292, 'Jilli Mompesson', 'Neurology', 303),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (293, 'Tabor Hazlegrove', 'head of Radiology Department', 601),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (294, 'Dieter Tottle', 'Obstetric', 180),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (295, 'Desmund Bulford', 'Dermatology', 691),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (296, 'Catharine Rozenzweig', 'Oncology', 106),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (297, 'Mara Telford', 'Geriatrics', 342),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (298, 'Crin Spleving', 'head of Nutrition  dietetics', 455),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (299, 'Vince Case', 'Gynaecology', 289),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (300, 'Carmen Donnelly', 'head of Intensive care unit (ICU)', 573),
+INSERT INTO DOCTOR (D_ID, Name, Position, Salary) VALUES (301, 'Bethanne Wyche', 'head of Operating theatre (OT)', 662);
 
 
 
@@ -448,7 +449,8 @@ INSERT INTO MedicalRecords (P_ID, D_ID, Service, Settled, MoveOut) VALUES (97, 2
 INSERT INTO MedicalRecords (P_ID, D_ID, Service, Settled, MoveOut) VALUES (98, 298, 'Yes', '11/10/2020', '05/02/2022'); 
 INSERT INTO MedicalRecords (P_ID, D_ID, Service, Settled, MoveOut) VALUES (99, 299, 'No', '27/02/2021', '15/04/2021'); 
 INSERT INTO MedicalRecords (P_ID, D_ID, Service, Settled, MoveOut) VALUES (100, 301, 'Yes', '13/09/2020', '23/09/2021');
-
+ 
+ update
 
 
 ______________________________________________________________________________________________________________________________________________________________________________________
@@ -580,7 +582,7 @@ CREATE TABLE Room(
     PRIMARY KEY(R_code)
 );
 
-
+update
 
 INSERT INTO Room (rNumber, R_code, Floor) VALUES (1, '1N', 1);  
 INSERT INTO Room (rNumber, R_code, Floor) VALUES (2, '2N', 1);  
@@ -673,7 +675,7 @@ INSERT INTO Room (rNumber, R_code, Floor) VALUES (88, '7K', 8);
 INSERT INTO Room (rNumber, R_code, Floor) VALUES (89, '8K', 8);  
 INSERT INTO Room (rNumber, R_code, Floor) VALUES (90, '9K', 9);  
 INSERT INTO Room (rNumber, R_code, Floor) VALUES (91, '1G', 9);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (02, '2G', 9);  
+INSERT INTO Room (rNumber, R_code, Floor) VALUES (92, '2G', 9);  
 INSERT INTO Room (rNumber, R_code, Floor) VALUES (93, '3G', 9);  
 INSERT INTO Room (rNumber, R_code, Floor) VALUES (94, '4G', 9);  
 INSERT INTO Room (rNumber, R_code, Floor) VALUES (95, '5G', 9);  
@@ -695,108 +697,109 @@ CREATE TABLE Stay(
     FOREIGN KEY(P_ID) REFERENCES Patient(P_ID)
 );
 
-
+update
 
 INSERT INTO Stay (P_ID, rNumber, Available) VALUES (NULL, 1, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (2, 2, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (3, 3, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (4, 4, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (5, 5, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (6, 6, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (7, 7, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (8, 8, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (9, 9, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (10, 10, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (11, 11, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (12, 12, 'Yes'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (2, 2, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (3, 3, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (4, 4, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (5, 5, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (6, 6, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (7, 7, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (8, 8, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (9, 9, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (10, 10, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (11, 11, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (12, 12, 'NO'); 
 INSERT INTO Stay (P_ID, rNumber, Available) VALUES (NULL, 13, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (14, 14, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (15, 15, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (16, 16, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (17, 17, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (18, 18, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (19, 19, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (20, 20, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (21, 21, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (22, 22, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (23, 23, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (24, 24, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (25, 25, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (26, 26, 'Yes'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (14, 14, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (15, 15, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (16, 16, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (17, 17, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (18, 18, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (19, 19, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (20, 20, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (21, 21, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (22, 22, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (23, 23, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (24, 24, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (25, 25, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (26, 26, 'NO'); 
 INSERT INTO Stay (P_ID, rNumber, Available) VALUES (NULL, 27, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (28, 28, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (29, 29, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (30, 30, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (31, 31, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (32, 32, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (33, 33, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (34, 34, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (35, 35, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (36, 36, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (37, 37, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (38, 38, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (39, 39, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (40, 40, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (41, 41, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (42, 42, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (43, 43, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (44, 44, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (45, 45, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (46, 46, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (47, 47, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (48, 48, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (49, 49, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (50, 50, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (51, 51, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (52, 52, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (53, 53, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (54, 54, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (55, 55, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (56, 56, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (57, 57, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (58, 58, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (59, 59, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (60, 60, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (61, 61, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (62, 62, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (63, 63, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (64, 64, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (65, 65, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (66, 66, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (67, 67, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (68, 68, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (69, 69, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (70, 70, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (71, 71, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (72, 72, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (73, 73, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (74, 74, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (75, 75, 'Yes'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (28, 28, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (29, 29, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (30, 30, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (31, 31, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (32, 32, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (33, 33, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (34, 34, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (35, 35, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (36, 36, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (37, 37, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (38, 38, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (39, 39, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (40, 40, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (41, 41, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (42, 42, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (43, 43, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (44, 44, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (45, 45, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (46, 46, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (47, 47, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (48, 48, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (49, 49, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (50, 50, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (51, 51, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (52, 52, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (53, 53, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (54, 54, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (55, 55, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (56, 56, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (57, 57, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (58, 58, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (59, 59, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (60, 60, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (61, 61, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (62, 62, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (63, 63, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (64, 64, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (65, 65, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (66, 66, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (67, 67, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (68, 68, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (69, 69, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (70, 70, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (71, 71, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (72, 72, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (73, 73, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (74, 74, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (75, 75, 'NO'); 
 INSERT INTO Stay (P_ID, rNumber, Available) VALUES (NULL, 76, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (77, 77, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (78, 78, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (79, 79, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (80, 80, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (81, 81, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (82, 82, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (83, 83, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (84, 84, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (85, 85, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (86, 86, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (87, 87, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (88, 88, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (89, 89, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (90, 90, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (91, 91, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (92, 92, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (93, 93, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (94, 94, 'Yes'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (77, 77, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (78, 78, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (79, 79, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (80, 80, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (81, 81, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (82, 82, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (83, 83, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (84, 84, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (85, 85, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (86, 86, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (87, 87, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (88, 88, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (89, 89, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (90, 90, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (91, 91, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (92, 92, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (93, 93, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (94, 94, 'NO'); 
 INSERT INTO Stay (P_ID, rNumber, Available) VALUES (NULL, 95, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (96, 96, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (97, 97, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (98, 98, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (99, 99, 'Yes'); 
-INSERT INTO Stay (P_ID, rNumber, Available) VALUES (100, 100, 'Yes');
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (96, 96, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (97, 97, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (98, 98, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (99, 99, 'NO'); 
+INSERT INTO Stay (P_ID, rNumber, Available) VALUES (100, 100, 'NO');
+
 
 
 ______________________________________________________________________________________________________________________________________________________________________________________
@@ -812,106 +815,107 @@ CREATE TABLE Cost(
 );
 
 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (1, 200, null, 'Phyllopsora parvifoliella (Nyl.) Müll. Arg.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (2, 203, 2, 'Smilax pumila Walter'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (3, 204, 3, 'Eucalyptus astringens (Maiden) Maiden'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (4, 205, 4, 'Calochortus elegans Pursh var. selwayensis (H. St. John) Ownbey'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (5, 300, 5, 'Leptogium digitatum (A. Massal.) Zahlbr.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (6, 206, 6, 'Lilium pardalinum Kellogg ssp. shastense (Eastw.) M.W. Skinner'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (7, 207, 7, 'Sporobolus neglectus Nash'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (8, 208, 8, 'Panax pseudoginseng Wall. ssp. japonicus (C.A. Mey.) H. Hara'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (9, 209, 9, 'Calamagrostis hillebrandii (Munro ex Hillebr.) Hitchc.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (10, 210, 10, 'Erigeron flagellaris A. Gray'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (11, 211, 11, 'Verrucaria hydrela Ach.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (12, 212, 12, 'Macroptilium gibbosifolium (Ortega) A. Delgado'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (13, 213, null, 'Rosa pisocarpa A. Gray ssp. ahartii Ertter & W.H. Lewis'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (14, 214, 14, 'Ipomoea cordatotriloba Dennst. var. torreyana (A. Gray) D. Austin'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (15, 215, 15, 'Brugmansia ×candida Pers. (pro sp.)'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (16, 216, 16, 'Orobanche uniflora L.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (17, 217, 17, 'Rubus argutus Link'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (18, 218, 18, 'Neckera douglasii Hook.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (19, 219, 19, 'Vigna mungo (L.) Hepper'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (20, 220, 20, 'Eriogonum gypsophilum Wooton & Standl.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (21, 221, 21, 'Trifolium michelianum Savi'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (22, 222, 22, 'Vicia unijuga A. Braun'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (23, 223, 23, 'Brodiaea elegans Hoover ssp. elegans'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (24, 224, 24, 'Diplazium meyenianum C. Presl'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (25, 225, 25, 'Erigeron velutipes Hook. & Arn.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (26, 226, 26, 'Eustachys retusa (Lag.) Kunth'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (27, 227, null, 'Microgramma C. Presl'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (28, 228, 28, 'Allium chinense G. Don'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (29, 229, 29, 'Herniaria glabra L.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (30, 230, 30, 'Phlomis tuberosa L.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (31, 231, 31, 'Pilea depressa (Sw.) Blume'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (32, 232, 32, 'Arabis aculeolata Greene'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (33, 233, 33, 'Eriogonum nudum Douglas ex Benth. var. murinum Reveal'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (34, 234, 34, 'Eriogonum longifolium Nutt. var. longifolium'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (35, 235, 35, 'Melica californica Scribn. var. californica'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (36, 236, 36, 'Ctenitis hirta (Sw.) Ching'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (37, 237, 37, 'Spermacoce tenuior L.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (38, 238, 38, 'Salvinia bilobaRaddi'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (39, 239, 39, 'Silene uniflora Roth'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (40, 240, 40, 'Pentagramma triangularis (Kaulf.) Yatsk., Windham & E. Wollenw.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (41, 241, 41, 'Cyrtandra ×ramosissima Rock (pro sp.)'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (42, 242, 42, 'Romneya Harv.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (43, 243, 43, 'Tofieldia pusilla (Michx.) Pers.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (44, 244, 44, 'Mycoglaena quercicola R.C. Harris'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (45, 245, 45, 'Acacia sophorae (Labill.) R. Br.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (46, 246, 46, 'Pachysandra terminalis Siebold & Zucc.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (47, 247, 47, 'Arethusa L.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (48, 248, 48, 'Campanula aurita Greene'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (49, 249, 49, 'Bacidia circumspecta (Nyl. ex Vain.) Malme'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (50, 250, 50, 'Carex sabulosa Turcz. ex Kunth'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (51, 251, 51, 'Dermatocarpon moulinsii (Mont.) Zahlbr.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (52, 252, 52, 'Zygophyllum fabago L.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (53, 253, 53, 'Silphium integrifolium Michx. var. laeve Torr. & A. Gray'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (54, 254, 54, 'Ephemerum crassinervium (Schwägr.) Hampe'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (55, 255, 55, 'Myelochroa metarevoluta (Asah.) Elix & Hale'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (56, 256, 56, 'Pectis angustifolia Torr. var. fastigiata (A. Gray) Keil'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (57, 257, 57, 'Phacelia denticulata Osterh.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (58, 258, 58, 'Cladonia verruculosa (Vain.) Ahti'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (59, 259, 59, 'Lamium L.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (60, 260, 60, 'Platanthera grandiflora (Bigelow) Lindl.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (61, 261, 61, 'Calystegia occidentalis (A. Gray) Brummitt ssp. occidentalis var. tomentella (Greene) Brummitt'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (62, 262, 62, 'Dichanthelium villosissimum (Nash) Freckmann var. praecocius (Hitchc. & Chase) Freckmann'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (63, 263, 63, 'Pyrenula quassiaecola Fée'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (64, 264, 64, 'Rubus jacens Blanch.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (65, 265, 65, 'Gamochaeta argyrinea G.L. Nesom'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (66, 266, 66, 'Chamaesyce degeneri (Sherff) Croizat & O. Deg.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (67, 267, 67, 'Cinnamomum tamala (Buch.-Ham.) T. Nees & Eberm.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (68, 268, 68, 'Leucocrinum montanum Nutt. ex A. Gray'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (69, 269, 69, 'Sedum moranense Kunth'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (70, 270, 70, 'Astragalus mokiacensis A. Gray'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (71, 271, 71, 'Abies homolepis Siebold & Zucc.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (72, 272, 72, 'Ribes roezlii Regel var. amictum (Greene) Jeps.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (73, 273, 73, 'Rotala rotundifolia (Buch.-Ham. ex Roxb.) Koehne'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (74, 274, 74, 'Poa supina Schrad.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (75, 275, 75, 'Eutrochium Raf.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (76, 276, null, 'Arthothelium hallii (Tuck.) Zahlbr.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (77, 277, 77, 'Argythamnia P. Br.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (78, 278, 78, 'Geum rossii (R. Br.) Ser.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (79, 279, 79, 'Sterculia setigera Delile'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (80, 280, 80, 'Oxytropis borealis DC. var. borealis'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (81, 281, 81, 'Arabis ophira Rollins'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (82, 282, 82, 'Dubautia laxa Hook. & Arn. ssp. laxa'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (83, 283, 83, 'CeaYesthus griseus (Trel.) McMinn'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (84, 284, 84, 'Plagiobothrys pringlei Greene'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (85, 285, 85, 'Aiphanes Willd.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (86, 286, 86, 'Acoelorraphe H. Wendl.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (87, 287, 87, 'Ionactis elegans (Soreng & Spellenb.) G.L. Nesom'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (88, 288, 88, 'Mimulus nanus Hook. & Arn. var. nanus (A.L. Grant) D. M. Thomps.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (89, 289, 89, 'Embothrium J.R. Forst. & G. Forst.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (90, 290, 90, 'Helianthus pumilus Nutt.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (91, 291, 91, 'Sagittaria papillosa Buchenau'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (92, 292, 92, 'Sclerocactus whipplei (Engelm. & J.M. Bigelow) Britton & Rose'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (93, 293, 93, 'Linum medium (Planch.) Britton var. medium'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (94, 294, 94, 'Hulsea vestita A. Gray ssp. parryi (A. Gray) Wilken'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (95, 295, null, 'LecaYesra Yesvomexicana H. Magn.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (96, 296, 96, 'Thelypteris hispidula (Decne.) C.F. Reed var. hispidula'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (97, 297, 97, 'Euphorbia commutata Engelm. ex A. Gray'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (98, 298, 98, 'Parmelia omphalodes (L.) Ach.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (99, 299, 99, 'Jamesia americana Torr. & A. Gray var. rosea J.A. Purpus ex C.K. Schneid.'); 
-INSERT INTO COST (P_ID, D_ID, rNumber, Oname) VALUES (100, 301, 100, 'Potentilla Yesrvegica L. ssp. Yesrvegica');
+
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (1, 200, 0, 556), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (2, 203, 145, 777), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (3, 204, 237, 626), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (4, 205, 195, 779),
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (5, 300, 246, 746), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (6, 206, 291, 737), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (7, 207, 294, 524), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (8, 208, 113, 966), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (9, 209, 300, 629), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (10, 210, 278, 928), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (11, 211, 285, 856), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (12, 212, 124, 669), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (13, 213, 0, 570), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (14, 214, 290, 516), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (15, 215, 283, 535), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (16, 216, 231, 843), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (17, 217, 218, 761), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (18, 218, 222, 644), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (19, 219, 108, 869), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (20, 220, 198, 601), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (21, 221, 121, 921), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (22, 222, 294, 722), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (23, 223, 100, 914), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (24, 224, 152, 436), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (25, 225, 266, 942), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (26, 226, 164, 798), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (27, 227, 0, 586), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (28, 228, 278, 587), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (29, 229, 232, 685), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (30, 230, 284, 428), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (31, 231, 141, 830), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (32, 232, 161, 565), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (33, 233, 224, 849), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (34, 234, 236, 960), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (35, 235, 151, 445), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (36, 236, 252, 550), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (37, 237, 165, 664), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (38, 238, 145, 461), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (39, 239, 274, 787), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (40, 240, 179, 511), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (41, 241, 234, 759), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (42, 242, 281, 968), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (43, 243, 130, 778), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (44, 244, 241, 719), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (45, 245, 245, 941), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (46, 246, 199, 694), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (47, 247, 264, 971), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (48, 248, 214, 971), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (49, 249, 210, 848), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (50, 250, 195, 648), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (51, 251, 194, 709), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (52, 252, 215, 830), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (53, 253, 225, 432), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (54, 254, 107, 760), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (55, 255, 122, 998), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (56, 256, 184, 635), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (57, 257, 212, 738), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (58, 258, 161, 438), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (59, 259, 223, 465), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (60, 260, 145, 545), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (61, 261, 141, 882), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (62, 262, 143, 495), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (63, 263, 277, 468), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (64, 264, 242, 557), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (65, 265, 151, 757), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (66, 266, 288, 464), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (67, 267, 101, 694), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (68, 268, 241, 896), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (69, 269, 147, 628), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (70, 270, 143, 591), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (71, 271, 104, 452), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (72, 272, 184, 776), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (73, 273, 218, 640), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (74, 274, 272, 856), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (75, 275, 172, 628), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (76, 276, 0, 656), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (77, 277, 168, 482), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (78, 278, 165, 845), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (79, 279, 197, 671), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (80, 280, 250, 515), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (81, 281, 248, 728), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (82, 282, 249, 981), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (83, 283, 183, 781), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (84, 284, 120, 978), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (85, 285, 237, 959), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (86, 286, 150, 920), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (87, 287, 185, 431), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (88, 288, 287, 421), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (89, 289, 204, 586), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (90, 290, 147, 917), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (91, 291, 300, 444), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (92, 292, 174, 846), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (93, 293, 176, 807), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (94, 294, 108, 565), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (95, 295, 0, 475), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (96, 296, 182, 866), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (97, 297, 274, 647), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (98, 298, 129, 764), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (99, 299, 216, 477), 
+INSERT INTO COST (P_ID, D_ID, roomPrice, oPrice) VALUES (100, 301, 199, 499);
 
 
 ______________________________________________________________________________________________________________________________________________________________________________________
@@ -928,7 +932,6 @@ CREATE TABLE Operation(
 );
     
    
-    
     
 INSERT INTO Operation (P_ID, D_ID, N_ID, Oname, Otype, Oroom) VALUES (1, 203, 101, 'Carphophis sp.', 'Mild', 'A233'); 
 INSERT INTO Operation (P_ID, D_ID, N_ID, Oname, Otype, Oroom) VALUES (2, 203, 102, 'Platalea leucordia', 'Aver', 'A233'); 
@@ -1048,7 +1051,7 @@ CREATE TABLE Treatment(
 
 
 
-INSERT INTO Treatment (D_ID, P_ID, Oname, D_code, Mname) VALUES (203, 1, 'Carphophis sp.', 'S75019D', 'II'); 
+INSERT INTO Treatment (D_ID, P_ID, Oname, D_code, Mname) VALUES (200, 1, 'Carphophis sp.', 'S75019D', 'II'); 
 INSERT INTO Treatment (D_ID, P_ID, Oname, D_code, Mname) VALUES (203, 2, 'Platalea leucordia', 'S31149A', 'Jr'); 
 INSERT INTO Treatment (D_ID, P_ID, Oname, D_code, Mname) VALUES (204, 3, 'Vombatus ursinus', 'F12221', 'III'); 
 INSERT INTO Treatment (D_ID, P_ID, Oname, D_code, Mname) VALUES (205, 4, 'Chlamydosaurus kingii', 'S52182B', 'II'); 
@@ -1159,109 +1162,107 @@ CREATE TABLE Medicine(
     Description Varchar(50)
 );
     
-    
-    
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('OCTINOXATE and TITANIUM DIOXIDE', 'NARS FOUNDATION', 'Planar Nucl Med Imag of Neck Lymph using Oth Radionuclide');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('OCTINOXATE, ZINC OXIDE', 'EXTREME PROTECT SPF 30', 'Reposition Coccygeal Joint, External Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Trandolapril', 'Trandolapril', 'Reattachment of Left Lobe Liver, Open Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Eucalyptol, menthol, methyl salicylate, thymol', 'Antispetic', 'Fluoroscopy of Right Subclavian Vein using L Osm Contrast');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('GABAPENTIN', 'Gabapentin', 'Revision of Infusion Device in Ovary, External Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('methyldopa', 'Methyldopa', 'Extirpation of Matter from L Foot Art, Perc Endo Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('enoxaparin sodium', 'Enoxaparin sodium', 'Excision of Left Thumb Phalanx, Perc Endo Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('ACETAMINOPHEN, DIPHENHYDRAMINE HYDROCHLORIDE, and PHENYLEPHRINE HYDROCHLORIDE', 'Acetaminophen, Diphenhydramine Hydrochloride, Phenylephrine Hydrochloride', 'Drainage of R Sup Parathyroid, Perc Endo Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Misoprostol', 'Misoprostol', 'Occlusion of Right Main Bronchus, Perc Endo Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('alprostadil', 'PROSTIN', 'Occlusion L Int Iliac Art w Extralum Dev, Perc Endo');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Lamotrigine', 'Lamotrigine', 'Drainage of Left Finger Phalanx, Perc Endo Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Pantoprazole sodium', 'Pantoprazole sodium', 'Urinary System, Transplantation');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Amoxicillin and Clavulanate Potassium', 'Amoxicillin and Clavulanate Potassium', 'Transfer Perineum Subcu/Fascia w Skin, Subcu, Open');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('ipilimumab', 'YERVOY', 'Insertion of Int Fix INTO R Ulna, Perc Endo Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('TOXICODENDRON PUBESCENS LEAF', 'Rhus Toxicodendron', 'Bypass R Subclav Art to R Low Arm Art w Autol Art, Open');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('LIDOCAINE', 'Bikini Zone Medicated CREME', 'Lower Joints, Inspection');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('rifampin, isoniazid and pyrazinamide', 'Rifater', 'Destruction of Portal Vein, Percutaneous Endoscopic Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('OCTINOXATE, OCTISALATE, OXYBENZONE, TITANIUM DIOXIDE', 'Safe Sea Sunscreen With Jellyfish Sting Protective SPF 30', 'Drainage of Female Perineum, Open Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Simvastatin', 'Simvastatin', 'Destruction of Left Hand Artery, Open Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Hydrocortisone and Acetic Acid', 'Hydrocortisone and Acetic Acid', 'Transfer Abducens Nerve to Trochlear Nrv, Perc Endo Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Phenylephrine Hydrochloride and Fat, Hard', 'Rugby', 'Extirpation of Matter from Aortic Valve, Perc Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('calcium carbonate', 'Antacid', 'Removal of Drain Dev from Cisterna Chyli, Open Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('benzonatate', 'Benzonatate', 'Measurement of Biliary Flow, Perc Endo Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Sodium Fluoride', 'DentiCare Pro-Gel', 'Drainage of Sciatic Nerve, Open Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Fluoxetine Hydrochloride', 'Fluoxetine Hydrochloride', 'Removal of Nonaut Sub from L Pelvic Bone, Perc Endo Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Western Juniper', 'JUNIPERUS CALIFORNICA POLLEN', 'Insertion of Ext Fix INTO L Acetabulum, Perc Endo Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('lamivudine and zidovudine', 'COMBIVIR', 'Replacement of Right Ulna with Synth Sub, Perc Endo Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('CP2D/AS-3 Anticoagulant and Additive System', 'Nutricel Additive Solution - AS-3', 'Extirpation of Matter from T-lum Jt, Open Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Doxycycline hyclate', 'Doxycycline', 'Drainage of Inf Mesent Vein with Drain Dev, Perc Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Levothyroxine Sodium', 'Synthroid', 'Repair Right 4th Toe, Percutaneous Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('zidovudine', 'Zidovudine', 'Alteration of Left Upper Extremity, Open Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Alternaria alternata', 'Alternaria alternata', 'Supplement L Humeral Shaft w Synth Sub, Perc Endo');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('paroxetine hydrochloride', 'PAROXETINE', 'Restrict of L Axilla Lymph with Intralum Dev, Open Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Octinoxate and Titanium Dioxide', 'NARS ALL DAY LUMINOUS FOUNDATION', 'Dilate Gastric Art, Bifurc, w 3 Intralum Dev, Perc');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Homosalate, Octisalate, Avobenzone, and Octocrylene', 'Simple', 'Excision of Right Lower Femur, Perc Endo Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('OCTINOXATE and ZINC OXIDE', 'SENSAI SILKY BRONZE SUN PROTECTIVE CREAM FOR FACE SPF30', 'Release Left Ankle Bursa and Ligament, Perc Endo Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Titanium Dioxide, OCTINOXATE', 'Dr. Jart Hydrafull Beauty Balm', 'Irrigation of Genitourinary Tract using Irrigat, Endo, Diagn');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Polyethylene Glycol 400', 'GNP Lubricant Eye', 'Occlusion Mesenteric Lymph w Intralum Dev, Open');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Aconitum napellus, Bryonia alba, Hypericum perforatum', 'Frankincense and Myrrh Neck Shoulder and Knee', 'Repair Right Metatarsal-Phalangeal Joint, Perc Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Sulfamethoxazole and Trimethoprim', 'Sulfamethoxazole and Trimethoprim', 'Removal of Int Fix from R Fibula, Perc Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Octinoxate, Octisalate, and Titanium Dioxide', '04 Balancing Foundation', 'Transfer Pudendal Nerve to Lumbar Nerve, Open Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('OCTINOXATE, TITANIUM DIOXIDE, OXYBENZONE', 'CD DIORSNOW UV SHIELD BB CREME LIGHT SHADE WHITE REVEAL UV PROTECTION SPF 50', 'Introduction of Oth Therap Subst INTO Heart, Perc Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('KETOROLAC TROMETHAMINE', 'KETOROLAC TROMETHAMINE', 'Drainage of Right Ureter, Open Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('CARBAMAZEPINE', 'CARBAMAZEPINE', 'Removal of Nonaut Sub from Cervcal Vertebra, Perc Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('misoprostol', 'Cytotec', 'Fusion of L Elbow Jt with Autol Sub, Perc Endo Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Acetaminophen and Diphenhydramine Citrate', 'Aspirin Free Headache PM', 'Laser Interstitial Thermal Therapy of Anus');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Losartan Potassium and Hydrochlorothiazide', 'Losartan Potassium and Hydrochlorothiazide', 'Removal of Splint on Chest Wall');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Aluminum Zirconium Tetrachlorohydrex GLY', 'Degree', 'Insertion of Infusion Device INTO L Foot Art, Perc Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Arizona Cypress', 'Arizona Cypress', 'Fluoroscopy of Mouth/Oropharynx');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('CAMPHOR, MENTHOL, METHYL SALICYLATE', 'Omega Pain Relieving', 'Supplement L Frontal Bone w Nonaut Sub, Perc Endo');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('OCTISALATE, HOMOSALATE, AVOBENZONE AND OCTOCRYLENE', 'BEING TRUE ESSENTIALS ABSOLUTELY RADIANT', 'Planar Nuclear Medicine Imaging of Chest using Gallium 67');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Octinoxate, Octocrylene, Octisalate, Oxybenzone, Avobenzone and Homosalate.', 'SUNZONE FAMILY SPF 60', 'Insertion of Spacer INTO L Elbow Jt, Perc Endo Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('topiramate', 'Topamax', 'Wound Management Treatment of Integu Body');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('propolis', 'Probee', 'High Dose Rate (HDR) Brachytherapy of Ear using Cesium 137');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Acetaminophen', 'APAP', 'Drainage of Right Patella, Perc Endo Approach, Diagn');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Carbon Dioxide', 'Carbon Dioxide', 'Dilate R Ext Iliac Art, Bifurc, w 4 Drug-elut, Perc Endo');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Anticoagulant Citrate Phosphate Dextrose (CPD) Solution and ADSOL Preservation Solution', 'ADSOL Red Cell Preservation Solution System in Plastic Container (PL 146 Plastic)', 'Excision of Right Basilic Vein, Perc Endo Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Oxaprozin', 'Oxaprozin', 'Resection of Left Nipple, External Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Amlodipine besylate', 'Amlodipine besylate', 'Occlusion of Splenic Vein with Intralum Dev, Open Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('ketorolac tromethamine', 'ACUVAIL', 'Supplement L Low Arm & Wrist Muscle w Autol Sub, Open');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Furosemide', 'Furosemide', 'Dilate L Int Carotid, Bifurc, w 2 Intralum Dev, Perc Endo');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('White Kidney Beans', 'White Kidney Beans', 'LDR Brachytherapy of Pineal Body using Iridium 192');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Carboxymethylcellulose Sodium Glycerin', 'CVS Moisturizing Lubricating Eye Twin Pack', 'Removal of Autol Sub from Nasal Bone, Perc Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('magnesium hydroxide', 'MILK OF MAGNESIA ORIGINAL', 'Inspection of Right Lower Extremity, External Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Bacitracin', 'Bacitracin', 'CT Scan of L Knee using L Osm Contrast');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('CODEINE PHOSPHATE, PHENYLEPHRINE HYDROCHLORIDE AND PYRILAMINE MALEATE', 'Zotex-C', 'Replace of R Parietal Bone with Nonaut Sub, Open Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('psyllium husk', 'Guardian', 'Repair Left Iris, Percutaneous Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Mineral Oil', 'Mineral Oil', 'Replacement of Upper Gingiva with Nonaut Sub, Perc Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Loratadine, Pseudoephedrine', 'Up and Up allergy and congestion relief', 'Revision of Synthetic Substitute in Up Art, Perc Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Carbon Dioxide', 'Carbon Dioxide', 'Release Left Brachial Vein, Percutaneous Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Allantoin', 'SECRETIPSS SCALP HAIR ESSENTIAL TONIC PLUS', 'Ear Protector Attentuation Assessment');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('clindamycin phosphate', 'Cleocin Phosphate', 'Transfuse Nonaut Hemat Stem Cell in Periph Art, Perc');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Ethyl Alcohol', 'Instant Hand Sanitizer - Original', 'Excision of Left Greater Saphenous Vein, Perc Endo Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Octinoxate, Titanium Dioxide', 'Simply Beige Perfecting makeup SPF 25', 'MRI of Abd Aorta using Oth Contrast');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Venlafaxine Hydrochloride', 'Venlafaxine Hydrochloride', 'Bypass Pulm Trunk from Subclav w Autol Art, Perc Endo');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Sulfamethoxazole and Trimethoprim', 'Sulfamethoxazole and Trimethoprim', 'Transfer L Up Leg Muscle with Skin, Subcu, Open Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('BENZALKONIUM CHLORIDE', 'Antibacterial Wet Wipes With Aloe', 'Release Left Humeral Shaft, Percutaneous Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('acetaminophen, dextromethorphan hydrobromide and doxylamine succinate', 'simply right Night Time', 'Insert Limb Length Dev in L Humeral Shaft, Perc Endo');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Loperamide HCl', 'health mart anti diarrheal', 'Excision of Right Maxilla, Perc Endo Approach, Diagn');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Bambusa Nicotiana', 'Bambusa Nicotiana', 'Remove Card Rhythm Dev from Trunk Subcu/Fascia, Perc');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Venlafaxine Hydrochloride', 'Venlafaxine Hydrochloride', 'Revision of Drainage Device in Sinus, Open Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Ibuprofen, Pseudoephedrine Hydrochloride', 'cold and sinus relief', 'Inspection of Right Lower Leg, Percutaneous Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('OCTINOXATE, TITANIUM DIOXIDE', 'CD DIORSKIN STAR Studio Makeup Spectacular Brightening with sunscreen Broad Spectrum SPF30 033', 'Repair Left Ring Finger, Percutaneous Endoscopic Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('fluvoxamine maleate', 'Luvox CR', 'Plain Radiography of L Int Carotid using Oth Contrast');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Aconitum napellus, Bromium, Coccus Cacti, Corallium Rubrum, Cuprum Metallicum, Drosera Rotundifolia, Hepar Sulphuris Calcareum, Iodium, Mephitis Mephitica, Spongia Tosta', 'Honey Dont Cough', 'Revision of Autol Sub in Low Bursa/Lig, Extern Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('HYDROCODONE BITARTRATE AND ACETAMINOPHEN', 'HYDROCODONE BITARTRATE AND ACETAMINOPHEN', 'Alteration of Upper Jaw with Synth Sub, Perc Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Halobetasol Propionate', 'Ultravate X', 'Drainage of Right Ethmoid Bone, Percutaneous Approach, Diagn');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Rifampin', 'Rifampin', 'Release Vestibular Gland, External Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('medroxyprogesterone acetate', 'Provera', 'Destruction of Left Diaphragm, Percutaneous Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('WITCH HAZEL', 'BAEKNYONDONGAN CHI', 'Excision of Right Tarsal, Perc Endo Approach, Diagn');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('tobramycin', 'Tobrex', 'Dilate R Ulnar Art w 4+ Intralum Dev, Perc Endo');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Aluminum Zirconium Tricholorohydrex GLY', 'Sure Invisible Solid Powder Scent', 'Drainage of L Ankle with Drain Dev, Perc Endo Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Diphenhydramine HCl', 'Unisom SleepGels Nighttime Sleep-Aid', 'Repair Soft Palate, External Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Diphenhydramine Hydrochloride', 'equate allergy relief', 'Excision of C-thor Disc, Open Approach, Diagn');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Standardized Mite, Dermatophagoides farinae', 'Standardized Mite, Dermatophagoides farinae', 'Performance of Urinary Filtration, Single');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('omeprazole', 'Omeprazole', 'Monitoring of Arterial Pulse, Coronary, Perc Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Cetirizine HCl, Pseudoephedrine HCl', 'Topcare All Day Allergy D', 'Removal of Int Fix from Sacrococcygeal Jt, Extern Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('codeine phosphate and guaifenesin', 'Cheratussin AC', 'Occlusion of Bladder, Open Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Metronidazole', 'Metronidazole', 'Reattachment of Right Large Intestine, Perc Endo Approach');
-INSERT INTO Medicine (Mname, Brand, Description ) VALUES ('Perindopril Erbumine', 'Aceon', 'Bypass R Brach Art to Up Arm Vein w Nonaut Sub, Open');
 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('II', 'Harmon Face Values Cherry Blossom Scent Hand Sanit', 'Planar Nucl Med Imag of Neck Lymph using Oth Radionuclide'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Jr', 'Stratuscare Milk of Magnesia', 'Reposition Coccygeal Joint'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Jr', 'Methylphenidate Hydrochloride', 'Reattachment of Left Lobe Liver'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('II', 'SE 10-5 SS', 'Fluoroscopy of Right Subclavian Vein using L Osm Contrast');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Jr', 'pain relief', 'External Approach'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('III', 'Povidone Iodine Impregnated', 'Perc Endo Approach'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('IV', 'Simvastatin', 'Excision of Left Thumb Phalanx'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('II', 'Ferrum Phos', 'Phenylephrine Hydrochloride');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('II', 'Cat Flea', 'Occlusion of Right Main Bronchus'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('III', 'Spinach', 'Perc Endo');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('III', 'Fexofenadine Hydrochloride', 'Drainage of Left Finger Phalanx');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('II', 'Fenoprofen', 'Urinary System');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('III', 'AILANTHUS ALTISSIMA POLLEN', 'Transfer Perineum Subcu');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('IV', 'CENTER-AL - AMBROSIA ACANTHICARPA POLLEN', 'Insertion of Int Fix INTO R Ulna');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('IV', 'Sinusin', 'Bypass R Subclav Art to R Low Arm Art w Autol Art');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('IV', 'Dandruff', 'Lower Joints');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Jr', 'Clinpro 5000', 'Percutaneous Endoscopic Approach');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('II', 'Moisturizing Glucosamine brand', 'Drainage of Female Perineum');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Sr', 'Phenobarbital', 'Destruction of Left Hand Artery');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('IV', 'Jasmine Mint Antibacterial Foaming Hand Wash', 'Transfer Abducens Nerve to Trochlear Nrv');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Jr', 'Obao', 'Extirpation of Matter from Aortic Valve');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Jr', 'Lovastatin', 'Removal of Drain Dev from Cisterna Chyli');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Sr', 'Midazolam Hydrochloride', 'Measurement of Biliary Flow');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('II', 'Valsartan and Hydrochlorothiazide', 'Drainage of Sciatic Nerve');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Jr', 'good sense pain reliefchildrens', 'Removal of Nonaut Sub from L Pelvic Bone');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Jr', 'Felodipine', 'Insertion of Ext Fix INTO L Acetabulum');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('III', 'Captopril', 'Replacement of Right Ulna with Synth Sub');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('IV', 'ADVANCED HYDRO-LIQUID COMPACT (REFILL)' 'Extirpation of Matter from T-lum Jt');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('IV', 'HEAD COLD', 'Drainage of Inf Mesent Vein with Drain Dev');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('III', 'Tretin-X', 'Repair Right 4th Toe');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('III', 'Divalproex sodium', 'Alteration of Left Upper Extremity');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Sr', 'CLARINS Ever Matte SPF 15 - 103 Ivory', 'Supplement L Humeral Shaft w Synth Sub');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Sr', 'Olanzapine', 'Restrict of L Axilla Lymph with Intralum Dev');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('II', 'Idarubicin Hydrochloride', 'Dilate Gastric Art');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Sr', 'Gabapentin', 'Excision of Right Lower Femur');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Jr', 'Clonidine Hydrochloride', 'Release Left Ankle Bursa and Ligament');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('III', 'Coppertone', 'Irrigation of Genitourinary Tract using Irrigat');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('IV', 'Carbidopa and Levodopa', 'Occlusion Mesenteric Lymph w Intralum Dev');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('IV', 'CD DIORSKIN STAR Studio Makeup Spectacular Brighte', 'Repair Right Metatarsal-Phalangeal Joint');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Jr', 'Desonide', 'Removal of Int Fix from R Fibula');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('III', 'Sertraline', 'Transfer Pudendal Nerve to Lumbar Nerve'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Jr', 'NO-AD Sport SPF30 Continuous Mist Sunscreen', 'Introduction of Oth Therap Subst INTO Heart'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('II', 'Plus Pharma Extra Strength Acetaminophen PM', 'Drainage of Right Ureter'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('IV', 'RITE AID RENEWAL', 'Removal of Nonaut Sub from Cervcal Vertebr'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('IV', 'INDOMETHACIN', 'Fusion of L Elbow Jt with Autol Sub'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('II', 'Granisetron', 'Aspirin Free Headache PM');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('II', 'Ondansetron', 'Removal of Splint on Chest Wall');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Sr', 'Amitriptyline Hydrochloride', 'Insertion of Infusion Device INTO L Foot Art'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('IV', 'Colace', 'Fluoroscopy of Mouth Oropharynx')  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('IV', 'Amantadine Hydrochloride', 'Supplement L Frontal Bone w Nonaut Sub')  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('II', 'Giant Wild Rye', 'Planar Nuclear Medicine Imaging of Chest using Gallium 67'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('III', 'Loryna', 'Insertion of Spacer INTO L Elbow Jt, Perc Endo Approach');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Sr', 'Rite Aid', 'Wound Management Treatment of Integu Body'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Sr', 'Lupaneta Pack', 'High Dose Rate (HDR) Brachytherapy of Ear using Cesium 137');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('II', 'Leucovorin Calcium', 'Drainage of Right Patella');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Sr', 'Isopropyl Alcohol', 'Dilate R Ext Iliac Art');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Sr', 'Risperidone', 'Anticoagulant Citrate Phosphate Dextrose'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Jr', 'Clindamycinhydrochloride', 'Amlodipine besylate'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('III', 'Pollens - Trees, Pepper Tree, California Schinus m', 'Supplement L Low Arm & Wrist Muscle w Autol Sub');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('III', 'daytime nitetime sinus', 'Dilate L Int Carotid');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('IV', 'Heparin Sodium and Sodium Chloride', 'LDR Brachytherapy of Pineal Body using Iridium 192');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('II', 'Lithium Carbonate', 'Removal of Autol Sub from Nasal Bone'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('II', 'Ampicillin Sodium and Sulbactam Sodium', 'External Approach');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Sr', 'COMBIVIR', 'CT Scan of L Knee using L Osm Contrast');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Sr', 'foundcealer 2-in-1 foundation and concealer Broad', 'Replace of R Parietal Bone with Nonaut Sub'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('III', 'Exelon', 'Repair Left Iris'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('III', 'LIPTRUZET', 'Replacement of Upper Gingiva with Nonaut Sub'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('III', 'Wart Control', 'Up and Up allergy and congestion relief'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Jr', 'ONDANSETRON HYDROCHLORIDE', 'Release Left Brachial Vein'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('IV', 'Wal-Zan', 'Ear Protector Attentuation Assessment');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Sr', 'Potassium Chloride', 'Transfuse Nonaut Hemat Stem Cell in Periph Art'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('IV', 'Hydro Skin', 'Excision of Left Greater Saphenous Vein');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('IV', 'Panama Jack', 'MRI of Abd Aorta using Oth Contrast');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Jr', 'Virt-Select', 'Bypass Pulm Trunk from Subclav w Autol Art');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Jr', 'IMOVAX RABIES', 'Transfer L Up Leg Muscle with Skin'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('IV', 'Acetazolamide', 'Release Left Humeral Shaft'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('IV', 'health mart nasal decongestant pe', 'Insert Limb Length Dev in L Humeral Shaft'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Jr', 'CVS PHARMACY','Excision of Right Maxilla'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Sr', 'Amlodipine Besylate', 'Bambusa Nicotiana'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('III', 'METHADONE HYDROCHLORIDE', 'Venlafaxine Hydrochloride'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('IV', 'Folic Acid', 'cold and sinus relief');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('IV', 'Prednisone', 'Repair Left Ring Finger');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('IV', 'AMOXICILLIN', 'Plain Radiography of L Int Carotid using Oth Contrast');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Sr', 'Walgreens SUNSCREEN Sport', 'Cuprum Metallicum');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('III', 'Miconole', 'HYDROCODONE BITARTRATE AND ACETAMINOPHEN'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Sr', 'CVS PHARMACY', 'Drainage of Right Ethmoid Bone');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('II', 'CITALOPRAM HYDROBROMIDE', 'Release Vestibular Gland');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('III', 'Bambusa Stibium', 'Destruction of Left Diaphragm');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('IV', 'FENTANYL CITRATE', 'Excision of Right Tarsal'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Sr', 'WHITE LAVENDAR AND MINT ANTIBACTERIAL GENTLE FOAMI', 'Dilate R Ulnar Art w 4+ Intralum Dev'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('III', 'Res-Q Analgesic Topical Pain Relief', 'Sure Invisible Solid Powder Scent');   
+INSERT INTO medicine (Mname, brand, Description) VALUES ('III', 'Apri', 'Repair Soft Palate'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('IV', 'Dexamethasone Sodium Phosphate', 'Excision of C-thor Disc'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('IV', 'UNITHROID', 'Standardized Mite');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('IV', 'Clotrimazole and Betamethasone Dipropionate', 'Monitoring of Arterial Pulse'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('II', 'Imipramine Hydrochloride', 'Removal of Int Fix from Sacrococcygeal Jt'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('Jr', 'ROVECTIN', 'Occlusion of Bladder'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('III', 'Hydroxyzine Hydrochloride', 'Reattachment of Right Large Intestine');  
+INSERT INTO medicine (Mname, brand, Description) VALUES ('III', 'SULPHUR', 'Bypass R Brach Art to Up Arm Vein w Nonaut Sub'); 
+INSERT INTO medicine (Mname, brand, Description) VALUES ('III', 'Trick or Treat Antibacterial Hand', 'Perindopril Erbumine');
 
 ______________________________________________________________________________________________________________________________________________________________________________________
 
@@ -1502,106 +1503,106 @@ CREATE TABLE Ambulans(
 );
 
 
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (1, '0XP64JZ', 'Range Rover');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (2, '0SWD47Z', 'LeSabre');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (3, '021208C', 'Bravada');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (4, '0XW73YZ', 'Aero 8');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (5, '0KXP0Z2', 'Century');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (6, '0D1M8JP', 'Frontier');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (7, '0SH03CZ', 'Th!nk');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (8, 'BQ3FZZZ', 'CR-X');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (9, '0RPU37Z', 'Tahoe');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (10, '079H0ZX', 'Accord');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (11, '0QWQ35Z', 'Aspire');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (12, '02NV3ZZ', '968');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (13, '0PSD0DZ', 'Sebring');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (14, '0GQ70ZZ', 'Thunderbird');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (15, '08W1X7Z', 'Tracker');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (16, '037A4G6', 'Eos');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (17, '0BCC8ZZ', 'B-Series');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (18, '00XS4ZQ', 'XG350');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (19, '0DQ27ZZ', 'Sentra');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (20, '06R90KZ', 'Cabriolet');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (21, '0QPN37Z', 'Sierra 1500');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (22, '0DLF4DZ', 'MX-5');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (23, '0B943ZZ', 'Gallardo');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (24, '0Y9D0ZX', 'Odyssey');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (25, '04LF0CU', 'Jetta');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (26, '07LG0ZZ', 'Suburban 1500');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (27, '027F4ZZ', 'G');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (28, '06VG0ZZ', 'Escalade EXT');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (29, '04770F6', '240SX');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (30, '0CB2XZX', 'Gallardo');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (31, '047W076', 'Sonoma');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (32, '0SS3XZZ', 'Mazda5');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (33, 'B51J0ZA', 'S4');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (34, '0D7E4DZ', 'G-Series G20');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (35, '0VBJ0ZZ', '9-3');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (36, '0KPY3JZ', 'Impreza');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (37, '0BP047Z', 'Aerostar');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (38, '04LY4DZ', 'Altima');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (39, '0LC00ZZ', 'Elantra');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (40, '0NRS0KZ', 'LR2');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (41, '0RUR3JZ', 'Grand Am');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (42, '0DWQ8LZ', 'Accent');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (43, '30260M1', 'Rodeo Sport');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (44, '0XH241Z', '300E');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (45, '0CQR7ZZ', 'Sedona');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (46, '06H03DZ', 'Grand Cherokee');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (47, '0WJ6XZZ', 'M');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (48, '03733FZ', 'Coachbuilder');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (49, '0X6L0Z2', 'Q7');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (50, '041C0K0', 'E-Series');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (51, '0QS74DZ', 'Eos');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (52, '04QC0ZZ', 'Esprit');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (53, '09JYXZZ', 'FX');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (54, 'BT2100Z', 'Fit');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (55, '0D190JA', 'Countach');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (56, '04SF3ZZ', 'Jetta');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (57, '02B74ZZ', 'Challenger');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (58, '05V63DZ', 'Corolla');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (59, '0FPD3DZ', 'Caravan');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (60, '0JPV03Z', 'DB9');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (61, '0N984ZX', 'RX');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (62, '0RG60KJ', 'Jetta');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (63, '00K73ZZ', 'Versa');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (64, '05U807Z', 'M6');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (65, '0377376', 'Sonoma');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (66, '02RF4JZ', 'Diamante');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (67, '0FV93DZ', 'Pathfinder');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (68, 'B5150ZA', '88');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (69, '05DB0ZZ', 'Outback');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (70, '0SWJ37Z', 'Miata MX-5');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (71, '0MTT4ZZ', 'Suburban 1500');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (72, 'BQ0HYZZ', 'Pathfinder');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (73, '0UB17ZZ', 'Touareg');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (74, '0MNF3ZZ', 'Borrego');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (75, '02QN0ZZ', 'Seville');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (76, '4A040J0', 'Firebird');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (77, '04LM0ZZ', 'Firebird');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (78, '0PS030Z', 'Relay');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (79, '0QSQ4ZZ', 'Journey');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (80, '0QRD3KZ', 'Eclipse');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (81, '02CF3ZZ', 'Cherokee');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (82, '0PW247Z', 'G5');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (83, '0RPBX3Z', 'Oasis');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (84, '021L4KR', 'Lancer');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (85, '09WK3DZ', 'Grand Prix');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (86, '0M5V4ZZ', 'Regal');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (87, '0QUC0JZ', 'Diamante');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (88, '021Q4KD', 'Expedition EL');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (89, '0LB04ZX', 'Celica');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (90, '04PYX2Z', 'Canyon');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (91, '0FPD3DZ', 'Avalon');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (92, '0P9H3ZX', 'Sunfire');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (93, '0NUN07Z', 'Regal');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (94, '0DNQ0ZZ', 'Town Car');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (95, '0SJ54ZZ', 'DTS');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (96, '0RPU05Z', 'Fiero');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (97, '05Q04ZZ', 'Electra');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (98, '0FM24ZZ', 'Starion');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (99, '0D7C4DZ', 'Wrangler');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (100, '0H56XZZ', 'Yukon Denali');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (1, 'W5389XA', 'CX-5');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (2, 'Y37211A', 'Aerio');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (3, 'S92046', 'Galant');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (4, 'S52549J', 'Durango');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (5, 'S63121S', 'Altima');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (6, 'S42112B', 'Grand Cherokee');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (7, 'S72062S', 'Kizashi');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (8, 'H02011', 'Yukon XL 2500');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (9, 'T3472', 'RX-7');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (10, 'S42156K', 'Coupe');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (11, 'S68022', 'Galant');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (12, 'A98', 'Impala');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (13, 'Q770', 'Park Avenue');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (14, 'S42224A', 'Precis');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (15, 'H30133', 'G-Series 2500');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (16, 'S92122K', '7 Series');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (17, 'S32122D', 'Mirage');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (18, 'H44532', 'C-Class');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (19, 'S66123A', 'Tracer');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (20, 'S96902', 'Veracruz');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (21, 'S52044D', 'Rally Wagon 2500');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (22, 'T22519D', 'Avalanche');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (23, 'S32425B', 'LeSabre');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (24, 'V527XXA', 'Accord');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (25, 'T375X5D', 'Axiom');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (26, 'S20319', 'Sentra');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (27, 'S46121A', 'Firebird');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (28, 'S53143D', 'X3');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (29, 'S76819A', 'Santa Fe');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (30, 'S52335E', 'Escalade EXT');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (31, 'S3802XD', 'Escalade');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (32, 'S06323S', 'V50');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (33, 'T2315', 'Sierra 1500');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (34, 'S63285S', 'Blazer');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (35, 'E46', 'Scoupe');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (36, 'T532X2S', 'Park Avenue');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (37, 'S31531S', 'Sierra 2500');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (38, 'S2314', 'Camaro');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (39, 'S00241D', 'Pathfinder Armada');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (40, 'S8701XS', 'Beretta');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (41, 'M67432', 'Odyssey');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (42, 'Q72819', 'Corvette');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (43, 'Y219XXD', 'Legacy');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (44, 'V3910XD', 'Accord');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (45, 'B352', 'Integra');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (46, 'S0084XD', 'Sequoia');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (47, 'J95830', 'Silverado');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (48, 'S72046H', 'Caprice Classic');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (49, 'S72433E', 'Skyhawk');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (50, 'V0199XA', 'Z4');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (51, 'S52399C', 'Intrepid');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (52, 'Q451', 'Bonneville');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (53, 'T50B96A', 'Gemini');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (54, 'T85890', 'SLK-Class');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (55, 'E1021', 'C70');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (56, 'T23649A', 'Cayenne');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (57, 'M84378P', 'SLR McLaren');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (58, 'Z832', 'Element');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (59, 'S809', 'Cirrus');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (60, 'T23612', 'XC60');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (61, 'S02601K', 'Explorer Sport Trac');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (62, 'S46112A', 'RX Hybrid');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (63, 'V9036XA', 'RDX');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (64, 'V300XXD', 'Grand Marquis');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (65, 'S91139A', 'Aspire');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (66, 'S1010', 'Sprinter 3500');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (67, 'S52126D', 'Accord');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (68, 'S89021S', 'SL-Class');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (69, 'S4980XS', 'Tacoma Xtra');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (70, 'S52209P', 'S-Series');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (71, 'M80819D', 'Altima');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (72, 'S82871R', 'Sedona');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (73, 'S83002D', 'Trooper');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (74, 'S60420D', 'Ramcharger');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (75, 'N351', 'Enclave');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (76, 'O403XX5', 'DeVille');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (77, 'V557', 'Ram Van 2500');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (78, 'J64', 'Tempo');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (79, 'Y36290S', 'Sentra');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (80, 'S42295B', 'S-Series');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (81, 'S58111', 'Vandura G2500');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (82, 'O9A23', 'Cougar');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (83, 'E083211', 'Golf');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (84, 'C44209', 'R8');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (85, 'I69823', 'Continental');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (86, 'T68XXXS', 'Tempo');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (87, 'S82499K', 'Fit');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (88, 'O43192', 'Montero');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (89, 'S63104', 'Leone');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (90, 'S82153B', 'Carens');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (91, 'T63831D', 'FF');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (92, 'S62658A', 'Custom Cruiser');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (93, 'V760XXD', 'Silverado 3500');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (94, 'S42201A', 'GTI');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (95, 'O3132X4', 'XK Series');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (96, 'S70371', 'G3');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (97, 'T2531', 'Cougar');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (98, 'H401393', 'Discovery Series II');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (99, 'C50811', 'Electra');
+INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (100, 'M67332', 'Optima');
 
 
 ______________________________________________________________________________________________________________________________________________________________________________________
@@ -1614,6 +1615,7 @@ CREATE TABLE Ambulans(
      Salary INT,
      PRIMARY KEY(Driver_ID)
 );
+
 
 INSERT INTO Driver (Driver_ID, Name, Phone, Salary) VALUES (1, 'Jimmy Streeting', '207-232-0576', 262);
 INSERT INTO Driver (Driver_ID, Name, Phone, Salary) VALUES (2, 'Robyn Culkin', '254-978-1831', 377);
