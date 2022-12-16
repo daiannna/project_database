@@ -1,0 +1,25 @@
+1. γ dname, σ 23 <= department . id AND department . id <= 78 (department ⋈ department . head = doctors . name doctors)
+
+2. π patient.pname,patient.age ((patient ⋈¯  diagnose) π dg.name σ diagnose.p_id = patient.p_id ^ d.code = ‘s%’(diagnose))
+
+3. τ nurse.name, π nurse.name, nurse.n_id(nurse) π n_id σ floor != 3 ^ b_code <> ‘%H’ (block)
+
+4. γ count(rNumber) σ available = 'Yes'(stay)
+
+5. π medicine.brand (medicine) σ Mname = All(π Mname (treatment) σ p_id > 43)
+
+6. π patient.p_id, patient.pname (patient) ⟕ patient.p_id = diagnose.p_id π diagnose.dname(diagnose)
+
+7. π name, position, salary < 150(doctors) 
+
+8. (π patient.p_id, patient.pname σ age > 45(patient)) ∪ (π medicalrecords.settle, medicalrecords.moveout(medicalrecords))
+
+9. τ a.salary π a.name → paramedicname1, b.name → paramedicname2, a.shift 
+    σ a.paramedic_id <> b.paramedic_id ^ a.shift = b.shift (ρ a paramedic × ρ b paramedic)
+  
+10. π cost.p_id, codt.oPrice, cost.roomPrice, medicalrecords.settle, medicalrecords.moveout, γ sum (oPrice + roomPrice) 
+     (cost ⋈ medicalrecords σ cost.p_id = medicalrecords.p_id ^ cost.p_id = 50)
+     
+11. π operation.dc_id, operation.n_id σ operation.otype = "Mild" ^ oroom = "D341" (operation ⋈ doctors.dc_id = operation.dc_id doctors ⋈ nurse.n_id = operation.n_id nurse)
+
+12. ρ diagn (diagnose)
