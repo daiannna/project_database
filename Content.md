@@ -30,6 +30,7 @@ Sympathetic to the situation of hospitals in our country, we decided to consider
 # ER diagram
 <img width="1320" alt="Снимок экрана 2022-12-15 в 11 23 49" src="https://user-images.githubusercontent.com/120556897/207779740-a540f7fa-3d3d-4c64-99a2-b5f984a43d0f.png">
 
+
 # Relational Schema
 
 •	Department (ID, Dname, Head) <br>
@@ -50,9 +51,6 @@ Sympathetic to the situation of hospitals in our country, we decided to consider
 •	Medicine (Mname, Brand, Description) <br>
 
 
-
-
-# Normalization
 
 # FDs
 
