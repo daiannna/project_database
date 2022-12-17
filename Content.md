@@ -28,12 +28,13 @@ Sympathetic to the situation of hospitals in our country, we decided to consider
 
 
 # ER diagram
-<img width="1320" alt="Снимок экрана 2022-12-15 в 11 23 49" src="https://user-images.githubusercontent.com/120556897/207779740-a540f7fa-3d3d-4c64-99a2-b5f984a43d0f.png">
+<img width="1311" alt="hospital" src="https://user-images.githubusercontent.com/120556897/208241161-02ebedf3-c899-4577-b9e8-ce8faf16eb05.png">
+
 
 
 # Relational Schema
 
-•	Department (ID, Dname, Head) <br>
+<!-- •	Department (ID, Dname, Head) <br>
 •	Doctor (ID, Name, Position, Salary) <br>
 •	Nurse (ID, Name, Position, Salary) <br>
 •	Patient (P_ID, Name, Age, Phone, Address) <br>
@@ -48,8 +49,9 @@ Sympathetic to the situation of hospitals in our country, we decided to consider
 •	Driver (Driver_ID, Name, Phone, Salary) <br>
 •	Paramedic (Paramedic_ID, Name, Phone, Salary, Shift) <br>
 •	Treatment (P_ID, D_ID, D_code, Mname, Oname) <br>
-•	Medicine (Mname, Brand, Description) <br>
+•	Medicine (Mname, Brand, Description) <br> -->
 
+<img width="561" alt="relationalSchema" src="https://user-images.githubusercontent.com/120556897/208241199-aa794984-6702-4f04-ab9c-7cf476b72e3c.png">
 
 
 # FDs
@@ -67,21 +69,19 @@ Sympathetic to the situation of hospitals in our country, we decided to consider
   ID -> {Name, Address, Phone, Age}
 
 5. Diagnose <br>
-  D_Code -> {D_Name}  <br>
-  P_ID -> {D_Code, D_Name}
+  D_Code -> {D_Name} 
 
 6. Block <br>
   B_Code -> {Floor, N_ID}
 
 7. Room <br>
-  R_Code -> {Floor, rNumber}
+  B_Code -> {Floor}
 
-8. Ambulans <br>
+8. Ambulance <br>
   Car_Number -> {Model} 
 
 9. Driver <br>
-  ID -> {Name, Phone, Salary, Shift}  <br>
-  Phone -> {Name}
+  ID -> {Name, Phone, Salary, Shift} 
 
 10. Paramedic  
    Paramedic_ID -> {Name, Position, Salary, Shift}
@@ -90,12 +90,10 @@ Sympathetic to the situation of hospitals in our country, we decided to consider
    P_ID -> {D_ID, D_code, Mname, Oname}
 
 12. Operation <br>
-   P_ID -> {D_ID, N_ID, Oroom, Otype, Oname}  <br>
-   Oname -> {Otype, Oroom}
+   P_ID -> {D_ID, N_ID, Oroom, Otype, Oname}  
 
 13. Stay <br>
-   P_ID -> {Rnumber, Available}  <br>
-   Rnumber -> {Available}
+   P_ID -> {Rnumber, Available} 
 
 14. Cost <br>
    P_ID -> {D_ID, oPrice, roomPrice}
@@ -104,8 +102,7 @@ Sympathetic to the situation of hospitals in our country, we decided to consider
    Mname -> {Description}
 
 16. Medical Records   
-   P_ID -> {D_ID, Service, Settled}  <br>
-   P_ID, Settled -> MoveOut
+   P_ID -> {D_ID, Service, Settled} 
     
 
 
