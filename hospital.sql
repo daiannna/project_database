@@ -349,6 +349,7 @@ CREATE TABLE MedicalRecords(
      FOREIGN KEY(P_ID, D_ID) REFERENCES Patient(P_ID), Doctor(D_ID)
 );
 
+
 INSERT INTO MedicalRecords (P_ID, D_ID, Service, Settled, MoveOut) VALUES (1, 200, 'Yes', '27/10/2020', '31/12/2021'); 
 INSERT INTO MedicalRecords (P_ID, D_ID, Service, Settled, MoveOut) VALUES (2, 203, 'Yes', '28/09/2020', '13/06/2021'); 
 INSERT INTO MedicalRecords (P_ID, D_ID, Service, Settled, MoveOut) VALUES (3, 204, 'Yes', '09/01/2021', '29/08/2021'); 
@@ -450,7 +451,6 @@ INSERT INTO MedicalRecords (P_ID, D_ID, Service, Settled, MoveOut) VALUES (98, 2
 INSERT INTO MedicalRecords (P_ID, D_ID, Service, Settled, MoveOut) VALUES (99, 299, 'No', '27/02/2021', '15/04/2021'); 
 INSERT INTO MedicalRecords (P_ID, D_ID, Service, Settled, MoveOut) VALUES (100, 301, 'Yes', '13/09/2020', '23/09/2021');
  
- update
 
 
 ______________________________________________________________________________________________________________________________________________________________________________________
@@ -465,7 +465,6 @@ CREATE TABLE Patient(
      Phone INT,
      PRIMARY KEY(P_ID)
 );
-
 
 
 INSERT INTO Patient (P_ID, Name, Age, Address, Phone) VALUES (1, 'Talia Dilleway', 17, '2 Dottie Road', '521-964-7918'); 
@@ -577,113 +576,113 @@ ________________________________________________________________________________
 
 CREATE TABLE Room(
     rNumber INT,
-    R_code Varchar(50),
+    B_code Varchar(50),
     Floor INT,
     PRIMARY KEY(R_code)
 );
 
 update
 
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (1, '1N', 1);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (2, '2N', 1);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (3, '3N', 1);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (4, '4N', 1);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (5, '5N', 1);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (6, '6N', 1);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (7, '7N', 1);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (8, '8N', 1);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (9, '9N', 1);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (10, '1A', 2);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (11, '2A', 2);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (12, '3A', 2);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (13, '4A', 2);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (14, '5A', 2);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (15, '6A', 2);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (16, '7A', 2);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (17, '8A', 2);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (18, '9A', 2);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (19, '1B', 3);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (20, '2B', 3);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (21, '3B', 3);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (22, '4B', 3);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (23, '5B', 3);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (24, '6B', 3);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (25, '7B', 3);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (26, '8B', 3);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (27, '9B', 3);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (28, '1C', 4);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (29, '2C', 4);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (30, '3C', 4);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (31, '4C', 4);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (32, '5C', 4);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (33, '6C', 4);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (34, '7C', 4);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (35, '8C', 4);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (36, '9C', 4);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (37, '1D', 5);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (38, '2D', 5);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (39, '3D', 5);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (40, '4D', 5);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (41, '5D', 5);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (42, '6D', 5);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (43, '7D', 5);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (44, '9D', 5);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (45, '8D', 5);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (46, '1E', 10);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (47, '2E', 10);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (48, '3E', 10);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (49, '4E', 10);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (50, '5E', 10);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (51, '6E', 10);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (52, '7E', 10);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (53, '8E', 10);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (54, '9E', 10);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (55, '1H', 5);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (56, '2H', 5);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (57, '3H', 6);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (58, '4H', 1);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (59, '5H', 2);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (60, '6H', 6);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (61, '7H', 6);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (62, '8H', 6);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (63, '9H', 6);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (64, '1J', 6);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (65, '2J', 6);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (66, '3J', 6);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (67, '4J', 6);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (68, '5J', 6);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (69, '6J', 6);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (70, '7J', 7);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (71, '8J', 7);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (72, '9J', 7);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (73, '1F', 7);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (74, '2F', 7);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (75, '3F', 7);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (76, '4F', 7);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (77, '5F', 7);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (78, '6F', 7);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (79, '7F', 7);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (80, '8F', 8);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (81, '9F', 8);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (82, '1K', 8);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (83, '2K', 8);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (84, '3K', 8);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (85, '4K', 8);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (86, '5K', 8);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (87, '6K', 8);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (88, '7K', 8);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (89, '8K', 8);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (90, '9K', 9);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (91, '1G', 9);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (92, '2G', 9);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (93, '3G', 9);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (94, '4G', 9);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (95, '5G', 9);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (96, '6G', 9);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (97, '8G', 9);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (98, '9G', 9);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (99, '1L', 9);  
-INSERT INTO Room (rNumber, R_code, Floor) VALUES (100, '2L', 9);
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (1, '1N', 1);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (2, '2N', 1);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (3, '3N', 1);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (4, '4N', 1);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (5, '5N', 1);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (6, '6N', 1);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (7, '7N', 1);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (8, '8N', 1);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (9, '9N', 1);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (10, '1A', 2);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (11, '2A', 2);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (12, '3A', 2);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (13, '4A', 2);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (14, '5A', 2);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (15, '6A', 2);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (16, '7A', 2);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (17, '8A', 2);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (18, '9A', 2);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (19, '1B', 3);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (20, '2B', 3);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (21, '3B', 3);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (22, '4B', 3);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (23, '5B', 3);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (24, '6B', 3);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (25, '7B', 3);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (26, '8B', 3);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (27, '9B', 3);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (28, '1C', 4);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (29, '2C', 4);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (30, '3C', 4);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (31, '4C', 4);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (32, '5C', 4);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (33, '6C', 4);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (34, '7C', 4);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (35, '8C', 4);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (36, '9C', 4);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (37, '1D', 5);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (38, '2D', 5);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (39, '3D', 5);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (40, '4D', 5);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (41, '5D', 5);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (42, '6D', 5);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (43, '7D', 5);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (44, '9D', 5);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (45, '8D', 5);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (46, '1E', 10);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (47, '2E', 10);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (48, '3E', 10);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (49, '4E', 10);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (50, '5E', 10);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (51, '6E', 10);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (52, '7E', 10);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (53, '8E', 10);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (54, '9E', 10);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (55, '1H', 5);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (56, '2H', 5);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (57, '3H', 6);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (58, '4H', 1);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (59, '5H', 2);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (60, '6H', 6);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (61, '7H', 6);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (62, '8H', 6);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (63, '9H', 6);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (64, '1J', 6);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (65, '2J', 6);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (66, '3J', 6);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (67, '4J', 6);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (68, '5J', 6);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (69, '6J', 6);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (70, '7J', 7);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (71, '8J', 7);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (72, '9J', 7);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (73, '1F', 7);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (74, '2F', 7);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (75, '3F', 7);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (76, '4F', 7);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (77, '5F', 7);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (78, '6F', 7);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (79, '7F', 7);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (80, '8F', 8);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (81, '9F', 8);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (82, '1K', 8);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (83, '2K', 8);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (84, '3K', 8);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (85, '4K', 8);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (86, '5K', 8);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (87, '6K', 8);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (88, '7K', 8);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (89, '8K', 8);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (90, '9K', 9);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (91, '1G', 9);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (92, '2G', 9);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (93, '3G', 9);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (94, '4G', 9);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (95, '5G', 9);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (96, '6G', 9);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (97, '8G', 9);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (98, '9G', 9);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (99, '1L', 9);  
+INSERT INTO Room (rNumber, B_code, Floor) VALUES (100, '2L', 9);
 
 
 ______________________________________________________________________________________________________________________________________________________________________________________
@@ -809,8 +808,8 @@ ________________________________________________________________________________
 CREATE TABLE Cost(
     P_ID INT,
     D_ID INT,
-    rNumber INT,
-    Oname Varchar(50),
+    roomPricer INT,
+    oPrice INT,
     FOREIGN KEY(P_ID, D_ID) REFERENCES Patient(P_ID), Doctor(D_ID)
 );
 
@@ -931,7 +930,6 @@ CREATE TABLE Operation(
     FOREIGN KEY(P_ID, D_ID, N_ID) REFERENCES Patient(P_ID), Doctor(D_ID), Nurse(N_ID)
 );
     
-   
     
 INSERT INTO Operation (P_ID, D_ID, N_ID, Oname, Otype, Oroom) VALUES (1, 203, 101, 'Carphophis sp.', 'Mild', 'A233'); 
 INSERT INTO Operation (P_ID, D_ID, N_ID, Oname, Otype, Oroom) VALUES (2, 203, 102, 'Platalea leucordia', 'Aver', 'A233'); 
@@ -1494,7 +1492,7 @@ INSERT INTO Block (N_ID, B_code, Floor) VALUES (178, '2L', 9);
 ______________________________________________________________________________________________________________________________________________________________________________________
 
 
-CREATE TABLE Ambulans(
+CREATE TABLE Ambulance(
      P_ID INT,
      carNumber Varchar(50),
      Model Varchar(50),
@@ -1503,112 +1501,112 @@ CREATE TABLE Ambulans(
 );
 
 
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (1, 'W5389XA', 'CX-5');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (2, 'Y37211A', 'Aerio');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (3, 'S92046', 'Galant');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (4, 'S52549J', 'Durango');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (5, 'S63121S', 'Altima');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (6, 'S42112B', 'Grand Cherokee');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (7, 'S72062S', 'Kizashi');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (8, 'H02011', 'Yukon XL 2500');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (9, 'T3472', 'RX-7');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (10, 'S42156K', 'Coupe');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (11, 'S68022', 'Galant');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (12, 'A98', 'Impala');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (13, 'Q770', 'Park Avenue');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (14, 'S42224A', 'Precis');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (15, 'H30133', 'G-Series 2500');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (16, 'S92122K', '7 Series');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (17, 'S32122D', 'Mirage');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (18, 'H44532', 'C-Class');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (19, 'S66123A', 'Tracer');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (20, 'S96902', 'Veracruz');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (21, 'S52044D', 'Rally Wagon 2500');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (22, 'T22519D', 'Avalanche');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (23, 'S32425B', 'LeSabre');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (24, 'V527XXA', 'Accord');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (25, 'T375X5D', 'Axiom');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (26, 'S20319', 'Sentra');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (27, 'S46121A', 'Firebird');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (28, 'S53143D', 'X3');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (29, 'S76819A', 'Santa Fe');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (30, 'S52335E', 'Escalade EXT');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (31, 'S3802XD', 'Escalade');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (32, 'S06323S', 'V50');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (33, 'T2315', 'Sierra 1500');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (34, 'S63285S', 'Blazer');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (35, 'E46', 'Scoupe');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (36, 'T532X2S', 'Park Avenue');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (37, 'S31531S', 'Sierra 2500');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (38, 'S2314', 'Camaro');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (39, 'S00241D', 'Pathfinder Armada');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (40, 'S8701XS', 'Beretta');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (41, 'M67432', 'Odyssey');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (42, 'Q72819', 'Corvette');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (43, 'Y219XXD', 'Legacy');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (44, 'V3910XD', 'Accord');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (45, 'B352', 'Integra');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (46, 'S0084XD', 'Sequoia');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (47, 'J95830', 'Silverado');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (48, 'S72046H', 'Caprice Classic');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (49, 'S72433E', 'Skyhawk');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (50, 'V0199XA', 'Z4');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (51, 'S52399C', 'Intrepid');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (52, 'Q451', 'Bonneville');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (53, 'T50B96A', 'Gemini');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (54, 'T85890', 'SLK-Class');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (55, 'E1021', 'C70');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (56, 'T23649A', 'Cayenne');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (57, 'M84378P', 'SLR McLaren');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (58, 'Z832', 'Element');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (59, 'S809', 'Cirrus');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (60, 'T23612', 'XC60');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (61, 'S02601K', 'Explorer Sport Trac');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (62, 'S46112A', 'RX Hybrid');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (63, 'V9036XA', 'RDX');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (64, 'V300XXD', 'Grand Marquis');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (65, 'S91139A', 'Aspire');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (66, 'S1010', 'Sprinter 3500');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (67, 'S52126D', 'Accord');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (68, 'S89021S', 'SL-Class');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (69, 'S4980XS', 'Tacoma Xtra');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (70, 'S52209P', 'S-Series');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (71, 'M80819D', 'Altima');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (72, 'S82871R', 'Sedona');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (73, 'S83002D', 'Trooper');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (74, 'S60420D', 'Ramcharger');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (75, 'N351', 'Enclave');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (76, 'O403XX5', 'DeVille');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (77, 'V557', 'Ram Van 2500');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (78, 'J64', 'Tempo');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (79, 'Y36290S', 'Sentra');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (80, 'S42295B', 'S-Series');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (81, 'S58111', 'Vandura G2500');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (82, 'O9A23', 'Cougar');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (83, 'E083211', 'Golf');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (84, 'C44209', 'R8');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (85, 'I69823', 'Continental');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (86, 'T68XXXS', 'Tempo');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (87, 'S82499K', 'Fit');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (88, 'O43192', 'Montero');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (89, 'S63104', 'Leone');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (90, 'S82153B', 'Carens');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (91, 'T63831D', 'FF');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (92, 'S62658A', 'Custom Cruiser');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (93, 'V760XXD', 'Silverado 3500');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (94, 'S42201A', 'GTI');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (95, 'O3132X4', 'XK Series');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (96, 'S70371', 'G3');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (97, 'T2531', 'Cougar');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (98, 'H401393', 'Discovery Series II');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (99, 'C50811', 'Electra');
-INSERT INTO Ambulans (P_ID, carNumber, Model) VALUES (100, 'M67332', 'Optima');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (1, 'W5389XA', 'CX-5');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (2, 'Y37211A', 'Aerio');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (3, 'S92046', 'Galant');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (4, 'S52549J', 'Durango');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (5, 'S63121S', 'Altima');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (6, 'S42112B', 'Grand Cherokee');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (7, 'S72062S', 'Kizashi');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (8, 'H02011', 'Yukon XL 2500');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (9, 'T3472', 'RX-7');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (10, 'S42156K', 'Coupe');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (11, 'S68022', 'Galant');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (12, 'A98', 'Impala');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (13, 'Q770', 'Park Avenue');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (14, 'S42224A', 'Precis');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (15, 'H30133', 'G-Series 2500');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (16, 'S92122K', '7 Series');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (17, 'S32122D', 'Mirage');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (18, 'H44532', 'C-Class');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (19, 'S66123A', 'Tracer');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (20, 'S96902', 'Veracruz');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (21, 'S52044D', 'Rally Wagon 2500');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (22, 'T22519D', 'Avalanche');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (23, 'S32425B', 'LeSabre');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (24, 'V527XXA', 'Accord');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (25, 'T375X5D', 'Axiom');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (26, 'S20319', 'Sentra');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (27, 'S46121A', 'Firebird');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (28, 'S53143D', 'X3');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (29, 'S76819A', 'Santa Fe');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (30, 'S52335E', 'Escalade EXT');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (31, 'S3802XD', 'Escalade');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (32, 'S06323S', 'V50');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (33, 'T2315', 'Sierra 1500');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (34, 'S63285S', 'Blazer');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (35, 'E46', 'Scoupe');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (36, 'T532X2S', 'Park Avenue');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (37, 'S31531S', 'Sierra 2500');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (38, 'S2314', 'Camaro');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (39, 'S00241D', 'Pathfinder Armada');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (40, 'S8701XS', 'Beretta');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (41, 'M67432', 'Odyssey');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (42, 'Q72819', 'Corvette');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (43, 'Y219XXD', 'Legacy');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (44, 'V3910XD', 'Accord');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (45, 'B352', 'Integra');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (46, 'S0084XD', 'Sequoia');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (47, 'J95830', 'Silverado');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (48, 'S72046H', 'Caprice Classic');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (49, 'S72433E', 'Skyhawk');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (50, 'V0199XA', 'Z4');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (51, 'S52399C', 'Intrepid');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (52, 'Q451', 'Bonneville');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (53, 'T50B96A', 'Gemini');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (54, 'T85890', 'SLK-Class');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (55, 'E1021', 'C70');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (56, 'T23649A', 'Cayenne');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (57, 'M84378P', 'SLR McLaren');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (58, 'Z832', 'Element');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (59, 'S809', 'Cirrus');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (60, 'T23612', 'XC60');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (61, 'S02601K', 'Explorer Sport Trac');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (62, 'S46112A', 'RX Hybrid');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (63, 'V9036XA', 'RDX');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (64, 'V300XXD', 'Grand Marquis');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (65, 'S91139A', 'Aspire');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (66, 'S1010', 'Sprinter 3500');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (67, 'S52126D', 'Accord');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (68, 'S89021S', 'SL-Class');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (69, 'S4980XS', 'Tacoma Xtra');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (70, 'S52209P', 'S-Series');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (71, 'M80819D', 'Altima');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (72, 'S82871R', 'Sedona');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (73, 'S83002D', 'Trooper');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (74, 'S60420D', 'Ramcharger');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (75, 'N351', 'Enclave');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (76, 'O403XX5', 'DeVille');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (77, 'V557', 'Ram Van 2500');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (78, 'J64', 'Tempo');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (79, 'Y36290S', 'Sentra');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (80, 'S42295B', 'S-Series');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (81, 'S58111', 'Vandura G2500');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (82, 'O9A23', 'Cougar');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (83, 'E083211', 'Golf');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (84, 'C44209', 'R8');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (85, 'I69823', 'Continental');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (86, 'T68XXXS', 'Tempo');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (87, 'S82499K', 'Fit');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (88, 'O43192', 'Montero');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (89, 'S63104', 'Leone');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (90, 'S82153B', 'Carens');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (91, 'T63831D', 'FF');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (92, 'S62658A', 'Custom Cruiser');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (93, 'V760XXD', 'Silverado 3500');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (94, 'S42201A', 'GTI');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (95, 'O3132X4', 'XK Series');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (96, 'S70371', 'G3');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (97, 'T2531', 'Cougar');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (98, 'H401393', 'Discovery Series II');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (99, 'C50811', 'Electra');
+INSERT INTO Ambulance (P_ID, carNumber, Model) VALUES (100, 'M67332', 'Optima');
 
 
 ______________________________________________________________________________________________________________________________________________________________________________________
 
 
-CREATE TABLE Ambulans(
+CREATE TABLE Driver(
      Driver_ID INT,
      Name Varchar(50),
      Phone Varchar(50),
